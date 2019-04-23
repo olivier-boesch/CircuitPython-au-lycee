@@ -1,0 +1,45 @@
+BoxLayout:
+    padding: '20 dp'
+    spacing: '50 dp'
+    orientation: 'vertical'
+    Label:
+        text: 'Configuration des microcontroleurs pour les TP de physique'
+        font_size: '40 sp'
+    Label:
+        id: info_lbl
+        text: 'Pret'
+        font_size: '20 sp'
+        text_size: self.size
+        halign: 'center'
+        valign: 'center'
+    Label:
+        text: 'Configuration choisie:'
+        font_size: '15 sp'
+    Spinner:
+        id: config_spnr
+        text: '-- Configuration --'
+        on_text: app.set_config_type(self.text)
+    Button:
+        text: 'Configurer le(s) \u00b5Controleur(s)'
+        on_press: app.perform_config()
+    Button:
+        text: 'Quitter'
+        on_press: app.stop()
+    Label:
+        text: 'circuitpy-physique - Olivier Boesch \u00a9 2019 - Configuration automatique de \u00b5C pour CircuitPython\nlicence MIT'
+        text_size: self.size
+        halign: 'center'
+
+<PopupMessage@Popup>
+    size_hint: None,None
+    size: '400 dp','130 dp'
+    pos_hint: {'top': 0.95, 'right':0.98}
+    auto_dismiss: True
+    on_open: root.when_opened()
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: message_content_lbl
+            text_size: self.size
+            halign: 'center'
+            valign: 'center'
