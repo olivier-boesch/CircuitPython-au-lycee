@@ -19,11 +19,12 @@ OFF = (0, 0, 0)
 class Notification:
     """Notification class for led and oled screen"""
 
-    def __init__(self, w=128, h=32):
+    def __init__(self, always_serial_output=False, lcd_width=128, lcd_height=32):
         """setup oled scrren if connected and builtin neopixel"""
-        self._width = w  # width of screen in px
-        self._height = h  # height of screen in px
-        # --builtin led (neopixel)
+        self._width = lcd_width    # width of screen in px
+        self._height = lcd_height  # height of screen in px
+        self._always_serial_output = always_serial_output  # True if print on serial should be done even if lcd is connected
+        # --builtin led (neopixel for m4)
         self.npx = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.02, auto_write=False)
         # --oled screen
         try:
@@ -52,15 +53,15 @@ class Notification:
         if self.oled_display:
             self.led(OFF, startup=True)
 
-    def notify(self, color=OFF, text=''):
+    def notify(self, text='', color=OFF):
         self.led(color)
         self.oled_text(text)
 
     def oled_text(self, text='', invert=False):
         """display max 3 lines of text on oled display (separated by \\n)"""
         if not self.oled_display:
-            # if no oled_display -> print to serial
-            print(text)
+            # if no oled_display -> print to serial (newlines to tabs)
+            print(text.replace('\n', '\t'))
             return
         lines = text.split('\n')
         self.oled_display.fill(0)
@@ -71,6 +72,8 @@ class Notification:
         if invert:
             self.oled_display.invert()
         self.oled_display.show()
+        if self._always_serial_output:
+            print(text.replace('\n', '\t'))  # print to serial (newlines to tabs)
 
     def oled_bar(self, percent=0.0):
         """display an horizontal bar on oled display; percent = 0-100%"""
@@ -99,6 +102,8 @@ class Notification:
             self.oled_display.text('{: >3d}%'.format(int(percent)), self._width - 25, self._height // 2 - 4, 1)
             # send to device
             self.oled_display.show()
+            if self._always_serial_output:
+                print('progress : ', percent)
 
     def oled_logo(self, filename):
         self.oled_display.fill(0)
