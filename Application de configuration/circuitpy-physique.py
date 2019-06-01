@@ -4,7 +4,7 @@ os.environ["KIVY_NO_CONSOLELOG"] = "1"
 # kivy import
 from kivy.config import Config
 Config.set('kivy', 'desktop', 1)
-Config.set('graphics','window_state','maximized')
+Config.set('graphics', 'window_state', 'maximized')
 Config.set('input', 'mouse', 'mouse,disable_multitouch')
 
 from kivy.app import App
@@ -32,6 +32,7 @@ if capteur == \'{0}\':
 
 """
 
+
 class PopupMessage(Popup):
     """PopupMessage : display a message box"""
 
@@ -43,9 +44,15 @@ class PopupMessage(Popup):
         self.title = title
         self.ids['message_content_lbl'].text = text
 
+
 class CpypcApp(App):
+    drive_update = None
+    configs = None
+    micro_drives = None
+    config_type = None
+
     def build(self):
-        self.driveupdate = Clock.schedule_interval(lambda dt: self.update_drives(), 1.0)
+        self.drive_update = Clock.schedule_interval(lambda dt: self.update_drives(), 1.0)
         Clock.schedule_once(lambda dt: self.update_config(), 0.2)
         
     def update_config(self):
@@ -60,8 +67,7 @@ class CpypcApp(App):
         for i in range(len(self.configs)):
             self.configs[i] = self.configs[i].replace(config_path, '').replace('.py', '')
         self.root.ids['config_spnr'].values = [c for c in self.configs]
-            
-        
+
     def update_drives(self):
         self.micro_drives = []
         if os.name == 'nt':
@@ -94,8 +100,7 @@ class CpypcApp(App):
             p.open()
             return
         self.config_main()
-        
-        
+
     def config_main(self):
         try:
             for d in self.micro_drives:
@@ -124,6 +129,7 @@ class CpypcApp(App):
             p = PopupMessage()
             p.set_message('Erreur ecriture','impossible d\'ecrire la configuration')
             p.open()
+
 
 if __name__ == '__main__':
     CpypcApp().run()
