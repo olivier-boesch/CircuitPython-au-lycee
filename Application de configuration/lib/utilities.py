@@ -63,9 +63,9 @@ class Notification:
     def print_data_tuple(self,text=''):
         import re
         s = '('
-        l = re.findall('\d+', text)
-        for it in l:
-            s += str(it) + ','
+        numbers_list = re.findall(r"\d+", text)
+        for number in numbers_list:
+            s += str(number) + ','
         print(s[:-1] + ')')
 
     def oled_text(self, text='', invert=False):
