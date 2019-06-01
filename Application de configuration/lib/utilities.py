@@ -19,11 +19,12 @@ OFF = (0, 0, 0)
 class Notification:
     """Notification class for led and oled screen"""
 
-    def __init__(self, always_serial_output=False, lcd_width=128, lcd_height=32):
+    def __init__(self, print_data_tuple=False, always_serial_output=False, lcd_width=128, lcd_height=32):
         """setup oled scrren if connected and builtin neopixel"""
         self._width = lcd_width    # width of screen in px
         self._height = lcd_height  # height of screen in px
         self._always_serial_output = always_serial_output  # True if print on serial should be done even if lcd is connected
+        self._print_data_tuple = print_data_tuple
         # --builtin led (neopixel for m4)
         self.npx = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.02, auto_write=False)
         # --oled screen
@@ -56,6 +57,16 @@ class Notification:
     def notify(self, text='', color=OFF):
         self.led(color)
         self.oled_text(text)
+        if self._print_data_tuple:
+            self.print_data_tuple(text)
+
+    def print_data_tuple(self,text=''):
+        import re
+        s = '('
+        l = re.findall('\d+', text)
+        for it in l:
+            s += str(it) + ','
+        print(s[:-1] + ')')
 
     def oled_text(self, text='', invert=False):
         """display max 3 lines of text on oled display (separated by \\n)"""
