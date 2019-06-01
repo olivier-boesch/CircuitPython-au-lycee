@@ -63,7 +63,7 @@ class Notification:
     def print_data_tuple(self,text=''):
         import re
         s = '('
-        numbers_list = re.findall(r"\d+", text)
+        numbers_list = re.findall(r"[-+]?\d*\.\d+|\d+", text)
         for number in numbers_list:
             s += str(number) + ','
         print(s[:-1] + ')')
