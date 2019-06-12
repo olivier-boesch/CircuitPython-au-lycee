@@ -12,9 +12,7 @@ La platine est fabriquée à partir de plexiglass (ou altuglass). La forme est o
 #### Circuit imprimé
 Plan du cicuit imprimé.
 
-![photo pcb face](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/pcb_front_s.jpg "Photos pcb face")
-
-![photo pcb dos](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/pcb_back_s.jpg "Photos pcb dos")
+![plan pcb](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/m4v06-2019_pcb.png "Plan pcb")
 
 #### Pièces d'assemblage
 
