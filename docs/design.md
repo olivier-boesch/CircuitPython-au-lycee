@@ -32,6 +32,7 @@ Les entretoises sont fabriquées par imprimante 3D en pla transparent. L'impress
 Le montage nécessite un peu de visserie :
 * boulons m3 de 10mm de long pour la platine
 * boulon m3 de 30mm de long pour le boitier de capteur
+
 ![boulon m3 10mm](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/boulon_m3-10mm.jpg "boulon m3 10mm")
 
 ### Entroises pour la platine
