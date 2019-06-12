@@ -1,6 +1,6 @@
 # Design
 
-Une archive contenant tous les documents est téléchargeable ici : [Matériel v1](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Mat%C3%A9riel_v1.zip)
+Une archive contenant tous les documents est téléchargeable ici : [Matériel v1](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/release/Mat%C3%A9riel_v1.zip)
 
 ## Platine de microcontrôleur avec breaboard
 
