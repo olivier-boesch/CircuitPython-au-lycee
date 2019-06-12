@@ -17,6 +17,12 @@ Plan du cicuit imprimé.
 
 
 ## Pièces d'assemblage
+Les entretoises sont imprimées par imprimante 3D en pla transparent. L'impression est faite en couches de 0,2mm
+
+Le montage nécessite un peu de visserie :
+* boulons m3 de 10mm de long pour la platine
+* boulon m3 de 30mm de long pour le boitier de capteur
+
 ### Entroises pour la platine
 Les entroises font 1,8mm de hauteur, 3,5mm de diamètre intérieur et 5,5mm de diamètre extérieur.
  
