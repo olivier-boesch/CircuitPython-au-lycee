@@ -19,7 +19,7 @@ Le circuit imprimé a été conçu à l'aide de [fritzing](http://fritzing.org/h
 
 
 ## Capteur d'angle
-Le boitier du capteur d'angle est en plexiglass et le design a été fait avec [inkscape](https://inkscape.org/fr/).
+Le boitier du capteur d'angle est en plexiglass et le design a été fait avec [inkscape](https://inkscape.org/fr/) et découpé au laser. 
 
 ![plan capteur face](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_dessus.svg.png "Plan capteur face")
 ![plan capteur dos](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_dessous.svg.png "Plan capteur dos")
