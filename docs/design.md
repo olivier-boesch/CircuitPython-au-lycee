@@ -12,10 +12,15 @@ Plan du cicuit imprimé.
 
 ![plan pcb](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/m4v06-2019_pcb.png "Plan pcb")
 
-### Pièces d'assemblage
-
 
 ## Capteur d'angle
+
+
+## Pièces d'assemblage
+### Entroises pour la platine
+
+### Entretoises pour le capteur d'angle
+![entrtoise capteur](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle_3d.jpg "entrtoise capteur")
 
 
 ## Coût et fournisseurs
