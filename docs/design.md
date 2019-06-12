@@ -31,6 +31,8 @@ Les entroises font 20mm de hauteur, 3,5mm de diamètre intérieur et 5,5mm de di
 ![entrtoise capteur](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle_3d.jpg "entrtoise capteur")
 
 
+## La platine et le boitier de capteur terminés
+
 ## Coût et fournisseurs
 Les composants électroniques ont été achetés chez Semageek. Le plexiglass peut être acheté chez polydis. Les circuits imprimés ont été fabriqués par JLCPCB. Les entretoises d'assemblage ont été fabriquées à la maison par imprimante 3D.
 
