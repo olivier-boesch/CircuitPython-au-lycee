@@ -1,7 +1,7 @@
 # Le projet
 ## Objectif
 Fournir une solution matérielle et logicielle à base d'un microcontrôleur pouvant être programmé avec python.
-Les plans de fabrication sont fournis ainsi que des propositions de séances de travaus pratiques.
+Les plans de fabrication sont fournis ainsi que des propositions de séances de travaux pratiques.
 
 ## Contenu
 On se propose ici de fabriquer un platine comportant un microcontrôleur m4 express de Adafruit
