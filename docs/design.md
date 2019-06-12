@@ -18,8 +18,16 @@ Plan du cicuit imprimé.
 
 ## Pièces d'assemblage
 ### Entroises pour la platine
+Les entroises font 1,8mm de hauteur, 3,5mm de diamètre intérieur et 5,5mm de diamètre extérieur.
+ 
+![entrtoise capteur plan](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle.png "entrtoise capteur plan")
+![entrtoise capteur](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle_3d.jpg "entrtoise capteur")
+
 
 ### Entretoises pour le capteur d'angle
+Les entroises font 20mm de hauteur, 3,5mm de diamètre intérieur et 5,5mm de diamètre extérieur.
+ 
+![entrtoise capteur plan](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle.png "entrtoise capteur plan")
 ![entrtoise capteur](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/assemblage/entretoise_capteur_angle_3d.jpg "entrtoise capteur")
 
 
