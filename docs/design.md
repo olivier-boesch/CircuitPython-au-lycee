@@ -22,8 +22,8 @@ Le circuit imprimé a été conçu à l'aide de [fritzing](http://fritzing.org/h
 
 
 ## Pièces d'assemblage
-Le design des entretoises a été fait avec [openscad](https://www.openscad.org/)
-Les entretoises sont imprimées par imprimante 3D en pla transparent. L'impression est faite en couches de 0,2mm
+Le design des entretoises a été fait avec [openscad](https://www.openscad.org/). 
+Les entretoises sont fabriquées par imprimante 3D en pla transparent. L'impression est faite en couches de 0,2mm
 
 Le montage nécessite un peu de visserie :
 * boulons m3 de 10mm de long pour la platine
