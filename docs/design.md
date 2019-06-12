@@ -8,9 +8,13 @@ La platine est fabriquée à partir de plexiglass (ou altuglass). La forme est o
 ![plan de la platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/plaque_exp%C3%A9rimentation_pc.png "Plan platine")
 
 ### Circuit imprimé
-Plan du cicuit imprimé.
+Le circuit imprimé a été conçu à l'aide de fritzing et fabriqué par JLCPCB.
 
 ![plan pcb](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/m4v06-2019_pcb.png "Plan pcb")
+
+![photo pcb face](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/pcb_front_s.jpg "photo pcb face")
+![photo pcb dos](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/pcb/pcb_back_s.jpg "photo pcb dos")
+
 
 
 ## Capteur d'angle
