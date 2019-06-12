@@ -2,8 +2,8 @@
 Fabriquer un platine comportant un microcontrôleur m4 express de Adafruit
 avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteurs (ctn et ldr) ne nécessitent pas de fabrication de boitier.
 
-[Design](https://olivier-boesch.github.io/CircuitPython-au-lycee/design.md)
+[Design](https://olivier-boesch.github.io/CircuitPython-au-lycee/design)
 
-[Travaux pratiques](https://olivier-boesch.github.io/CircuitPython-au-lycee/tp.md)
+[Travaux pratiques](https://olivier-boesch.github.io/CircuitPython-au-lycee/tp)
 
 ## Merci
