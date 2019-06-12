@@ -1,5 +1,9 @@
 # Design
+
+Une archive contenant tous les documents est téléchargeable ici : [Matériel v1](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Mat%C3%A9riel_v1.zip)
+
 ## Platine de microcontrôleur avec breaboard
+
 ### Platine
 Le design de la plaque est fait de façon à n'exposer qu'une partie des broches du microcontrôleur pour éviter les mauvaises manipulations.
 En effet, comme sa tension de fonstionnement est de 3,3V, les broches pouvant proposer du 5V ne sont pas accessibles. 
@@ -57,4 +61,4 @@ Coûts (pour 10 cartes) :
 * circuits imprimés : 20€
 * Plexiglass : environ 15€
 * Composants : 
-* pièces d'assemblage : env. 10€
+* pièces d'assemblage : env. 10€1
