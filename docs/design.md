@@ -6,7 +6,7 @@ Une archive contenant tous les documents est téléchargeable ici : [Matériel v
 
 ### Platine
 Le design de la plaque est fait de façon à n'exposer qu'une partie des broches du microcontrôleur pour éviter les mauvaises manipulations.
-En effet, comme sa tension de fonstionnement est de 3,3V, les broches pouvant proposer du 5V ne sont pas accessibles. 
+En effet, comme sa tension de fonctionnement est de 3,3V, les broches pouvant proposer du 5V ne sont pas accessibles. 
 Le design de la plaque a été fait avec [inkscape](https://inkscape.org/fr/). 
 La platine est fabriquée à partir de plexiglass (ou altuglass). La forme est obtenue par découpe laser. 
 
