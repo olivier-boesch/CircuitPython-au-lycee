@@ -21,6 +21,25 @@ Un programme classique se décompose en quatre parties :
 * les initialisations
 * la boucle d'éxécution (commençant par ```while True``` ...)
 
+Exemple:
+```python
+# imports
+import board
+from analogio import AnalogIn
+
+# fonctions
+def calcul_tension(val_entree):
+    return val_entree * 3.3 / 65535
+
+# initialisations
+entree = AnalogIn(board.A0)
+
+# Boucle d'évécution
+while True:
+    tension = calcul_tension(entree.value)
+    print(tension)
+```
+
 ## Entrées et sorties analogiques
 
 ## Entrées et sorties digitales
