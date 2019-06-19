@@ -30,7 +30,7 @@ ou dans un pédale de guitare "wahwah" :
 
 ![pedale wahwah](https://raw.githubusercontent.com/olivier-boesch/CircuitPython-au-lycee/master/TPs/angle/wahwah.jpg)
 
-la pédale en action : https://youtu.be/uB0I9mvXv2Q?t=701
+[la pédale en action](https://youtu.be/uB0I9mvXv2Q?t=701)
 
 ### Le thermomètre
 __Objectif : Créer un thermomètre à l'aide d'une thermistance__
