@@ -38,7 +38,7 @@ Cette carte microcontrôleur fabriqué par adafruit regroupe:
 * plein d'autres choses dont un circuit de charge de batterie Lithium/Polymère.
 
 ### Fonction des broches (pinout)
-![feather m4 express](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout_s.png) 
+[![feather m4 express pinout](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout_s.png)](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout.pdf) 
 
 ## Ecrire un programme : choix d'éditeur de code
 
