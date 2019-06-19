@@ -1,4 +1,8 @@
 # Le projet
+
+|__Attention__ : Le travail est en cours... beaucoup de choses restent à faire...|
+|---|
+
 ## Objectif
 Fournir une solution matérielle et logicielle à base d'un microcontrôleur pouvant être programmé avec python.
 Les plans de fabrication sont fournis ainsi que des propositions de séances de travaux pratiques.
