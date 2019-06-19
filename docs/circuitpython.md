@@ -38,7 +38,9 @@ Cette carte microcontrôleur fabriqué par adafruit regroupe:
 * plein d'autres choses dont un circuit de charge de batterie Lithium/Polymère.
 
 ### Fonction des broches (pinout)
-[![feather m4 express pinout](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout_s.png)](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout.pdf) 
+[![feather m4 express pinout](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout_s.png)](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout.pdf)
+
+(Cliquez sur l'image pour télécharger une version pdf plus lisible) 
 
 ## Ecrire un programme : choix d'éditeur de code
 
@@ -79,7 +81,10 @@ while True:
 ```
 
 ## Entrées et sorties analogiques
+### Entrées analogiques
+Elles sont nommées ```A0,...,A5```. 6 entrées au total. La lecture est faite sur 16 bits (en vrai le convertisseur travaille sur 12bits).
 
+Cela veut dire que quand vous lisez la valeur de l'entrée elle vous donne un nombre entre 0 et 65535 (soit 65536 valeurs = 2^(16) ouf!). Le 0 correspond à 0V et 65535 correspond à 3,3V.
 
 
 ## Entrées et sorties digitales
