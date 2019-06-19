@@ -22,6 +22,7 @@ En outre, il est également possible de réinvestir les parties du programme tra
 ### Le capteur d'angle
 __Objectif : Créer un capteur d'angle à l'aide d'un potentiomètre__
 
+#### Présentation
 Il est utilisé comme capteur pour l'entrée d'air dans le carburateur de moteurs d'avion (plus de carburateurs dans les voitures à essence depuis 1993):
 
 ![capteur papillon](https://raw.githubusercontent.com/olivier-boesch/CircuitPython-au-lycee/master/TPs/angle/capteur_papillon.jpg)
@@ -32,8 +33,34 @@ ou dans un pédale de guitare "wahwah" pour contrôler l'effet:
 
 [la pédale en action](https://youtu.be/uB0I9mvXv2Q?t=701)
 
+#### Documents à télécharger
+
+* Présentation de la situation et indices au tableau
+* Documents élèves
+* fichiers python
+* archive complète
+
 ### Le thermomètre
 __Objectif : Créer un thermomètre à l'aide d'une thermistance__
+#### Présentation
+
+
+#### Documents à télécharger
+
+* Présentation de la situation et indices au tableau
+* Documents élèves
+* fichiers python
+* archive complète
 
 ### Le luxmètre 
 __Objectif : Créer un luxmètre à l'aide d'une photorésistance__
+
+#### Présentation
+
+
+#### Documents à télécharger
+
+* Présentation de la situation et indices au tableau
+* Documents élèves
+* fichiers python
+* archive complète
