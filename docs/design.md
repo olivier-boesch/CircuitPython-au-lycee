@@ -13,6 +13,8 @@ La platine est fabriquée à partir de plexiglass (ou altuglass). La forme est o
 
 ![plan de la platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/plaque_exp%C3%A9rimentation_pc.png "Plan platine")
 
+![photo platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/photo_plaque_exp%C3%A9rimentation_pc.jpg "Photo platine")
+
 
 ### Circuit imprimé
 Le circuit imprimé a été conçu à l'aide de [fritzing](http://fritzing.org/home/) et fabriqué par [JLCPCB](https://jlcpcb.com/).
