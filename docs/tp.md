@@ -22,11 +22,11 @@ En outre, il est également possible de réinvestir les parties du programme tra
 ### Le capteur d'angle
 __Objectif : Créer un capteur d'angle à l'aide d'un potentiomètre__
 
-Il est utilisé comme capteur pour l'entrée d'air dans un moteur :
+Il est utilisé comme capteur pour l'entrée d'air dans le carburateur de moteurs d'avion (plus de carburateurs dans les voitures à essence depuis 1993):
 
 ![capteur papillon](https://raw.githubusercontent.com/olivier-boesch/CircuitPython-au-lycee/master/TPs/angle/capteur_papillon.jpg)
 
-ou dans un pédale de guitare "wahwah" :
+ou dans un pédale de guitare "wahwah" pour contrôler l'effet:
 
 ![pedale wahwah](https://raw.githubusercontent.com/olivier-boesch/CircuitPython-au-lycee/master/TPs/angle/wahwah.jpg)
 
