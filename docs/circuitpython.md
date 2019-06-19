@@ -1,5 +1,9 @@
 # CircuitPython (Guide de démarrage rapide...)
 
+Il existe toute une famille de microcontrôleurs de programmant avec CircuitPython. On se concentrera ici sur le feather M4 express utilisé dans le projet.
+
+![feather m4 express]() 
+
 ## Python et CircuitPython
 
 Premièrement, ce guide n'a pas pour fonction de vous apprendre à programmer en python. D'autres personnes le font et bien mieux que je pourrais le faire.
@@ -64,9 +68,14 @@ while True:
 
 ## Entrées et sorties analogiques
 
+
+
 ## Entrées et sorties digitales
 
 ## Fonctions spéciales
+### port série
+
+### port i2C (two wires)
 
 ## Références en anglais
 
