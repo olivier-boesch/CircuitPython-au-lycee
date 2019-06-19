@@ -30,6 +30,15 @@ En résumé, moins rapide, pas de clavier, souvent sans écran et peu de stockag
 
 ## le Feather m4 express
 
+### Caractéristiques
+Cette carte microcontrôleur fabriqué par adafruit regroupe:
+* un microprocesseur ATSAMD51 cadencé à 120MHz
+* un mémoire de 2Mo
+* une led neopixel RGB
+* plein d'autres choses dont un circuit de charge de batterie Lithium/Polymère.
+
+### Fonction des broches (pinout)
+![feather m4 express](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/m4expresspinout_s.png) 
 
 ## Ecrire un programme : choix d'éditeur de code
 
