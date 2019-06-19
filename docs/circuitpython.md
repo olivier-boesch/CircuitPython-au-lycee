@@ -2,7 +2,7 @@
 
 Il existe toute une famille de microcontrôleurs de programmant avec CircuitPython. On se concentrera ici sur le feather M4 express utilisé dans le projet.
 
-![feather m4 express]() 
+![feather m4 express](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/featherm4express.jpg) 
 
 ## Python et CircuitPython
 
