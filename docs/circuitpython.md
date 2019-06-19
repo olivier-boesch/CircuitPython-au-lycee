@@ -1,8 +1,8 @@
 # CircuitPython (Guide de démarrage rapide...)
 
-Il existe toute une famille de microcontrôleurs de programmant avec CircuitPython. On se concentrera ici sur le feather M4 express utilisé dans le projet.
+Il existe toute une famille de microcontrôleurs se programmant avec CircuitPython. On se concentrera ici sur le feather M4 express utilisé dans le projet.
 
-![feather m4 express](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/featherm4express.jpg) 
+![feather m4 express](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/m4express/featherm4express.jpg) 
 
 ## Python et CircuitPython
 
@@ -28,11 +28,14 @@ Les microcontrôleurs sont fréquemment utilisés dans les systèmes embarqués,
 
 En résumé, moins rapide, pas de clavier, souvent sans écran et peu de stockage mais il fait peu mais bien.
 
+## le Feather m4 express
+
+
 ## Ecrire un programme : choix d'éditeur de code
 
 Avant de commencer : FUYEZ NOTEPAD! Ce n'est pas un éditeur de code et vous finirez bien souvent avec des problèmes obscures et difficiles à résoudre.
 
-Un bon choix possible est l'éditeur Mu ([https://codewith.mu/](https://codewith.mu/)). Simple fonctionnel et il gère nativement CircuitPython.
+Un bon choix possible est l'éditeur Mu ([https://codewith.mu/](https://codewith.mu/)). Simple, fonctionnel et il gère nativement CircuitPython.
 
 Comme vous écrivez directement le programme sur la mémoire du microcontrôleur, il faut choisir un éditeur capable de travailler sans cache (difficile à trouver). un comparatif en anglais ici : [https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code)
 
@@ -47,7 +50,7 @@ Un programme classique se décompose en quatre parties :
 * les initialisations
 * la boucle d'éxécution (commençant par ```while True``` ...)
 
-Exemple: Ce programme lit la valeur de l'entrée A0, traduit la valeur en tension électrique et l'envoie vers le port série
+Exemple: Ce programme lit la valeur de l'entrée A0, traduit la valeur en tension électrique et l'envoie vers le port série (avec son unité).
 ```python
 # imports
 import board
