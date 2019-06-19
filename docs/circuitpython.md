@@ -37,7 +37,7 @@ entree = AnalogIn(board.A0)
 # Boucle d'évécution
 while True:
     tension = calcul_tension(entree.value)
-    print(tension)
+    print(tension, "V")
 ```
 
 ## Entrées et sorties analogiques
