@@ -8,7 +8,7 @@ Les plans de fabrication sont fournis ainsi que des propositions de séances de 
 
 ## Contenu
 On se propose ici de fabriquer un platine comportant un microcontrôleur m4 express de Adafruit
-avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteurs (ctn et ldr) ne nécessitent pas de fabrication de boitier.
+avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteurs (thermistance et photorésistance) ne nécessitent pas de fabrication de boitier.
 
 [Un petit tutoriel sur CircuitPython](https://olivier-boesch.github.io/CircuitPython-au-lycee/circuitpython)
 
@@ -18,8 +18,8 @@ avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteur
 
 ## Merci
 
-Un grand merci à Antony Meunier, Professeur de STI2D Sin au lycée Saint éxupéry pour l'aide au design et la maîtrise de la découpe laser.
+Un grand merci à Antony Meunier, Professeur de STI2D Sin au lycée Saint éxupéry, pour l'aide au design et la maîtrise de la découpe laser.
 
-A Mmes Ourida Smahi et Chantal Le Nivet, technicienne et adjointe de laboratoire, pour l'aide au montage et l'enthousiasme (1140 soudures à 3!).
+A Mmes Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicienne et adjointes de laboratoire, pour l'aide au montage et l'enthousiasme (1140 soudures à 2! sans compter le montage...).
 
-A Damien Muti, professeur de physique en section arts appliquée, pour m'avoir soufflée l'idée du tutoriel sur CircuitPython. 
+A Damien Muti, professeur de physique chimie en section arts appliqués et générale, pour m'avoir soufflée l'idée du tutoriel sur CircuitPython. 
