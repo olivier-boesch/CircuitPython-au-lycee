@@ -31,6 +31,8 @@ Le boitier du capteur d'angle est en plexiglass et le design a été fait avec [
 ![plan capteur face](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_dessus.svg.png "Plan capteur face")
 ![plan capteur dos](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_dessous.svg.png "Plan capteur dos")
 
+![capteur terminé](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_terminee.jpg)
+
 
 ## Pièces d'assemblage
 Le design des entretoises a été fait avec [openscad](https://www.openscad.org/). 
@@ -56,6 +58,18 @@ Les entretoises font 20mm de hauteur, 3,5mm de diamètre intérieur et 5,5mm de 
 
 
 ## La platine et le boitier de capteur terminés
+
+La platine :
+
+![photo platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/platine_nue.jpg "Photo platine")
+
+![photo platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/platine_mc.jpg "Photo platine")
+
+![photo platine](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20d'exp%C3%A9rimentation/platine_compl%C3%A8te.jpg)
+
+Le boitier de capteur:
+
+![capteur terminé](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/Mat%C3%A9riel/Platine%20capteur%20angle/plaque_pot_terminee.jpg)
 
 ## Coût et fournisseurs
 Les composants électroniques ont été achetés chez Semageek. Le plexiglass peut être acheté chez polydis. Les circuits imprimés ont été fabriqués par JLCPCB. Les entretoises d'assemblage ont été fabriquées à la maison par imprimante 3D.
