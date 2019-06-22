@@ -1,10 +1,10 @@
 import board
 from analogio import AnalogIn
 import time
-import adafruit_dotstar as dotstar
+from utilities import Notification
 
 # ------------ parametres (pour le professeur) ----------
-broche_entree = board.D0  # broche d'entree du potentiomètre
+broche_entree = board.A0  # broche d'entree du potentiomètre
 # -------------------------------------------------------
 
 # ############# PARAMETRE DU POTENTIOMETRE ###########
@@ -21,26 +21,21 @@ def modele(R):
 
 # configuration de l'entrée analogique
 entree_analogique = AnalogIn(broche_entree)
-# config de la led interne
-led = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.3)
+# config des notifications
+notif = Notification()
 
 # boucle
 while True:
-    # flasher la led en vert pour montrer l'instant de la mesure
-    led[0] = (0, 255, 0)
-    time.sleep(0.05)
-    # calculer la tension à l'entrée analogique
+
+    # récupérer la valeur de l'entrée (16bits) calculer la tension à l'entrée analogique
     tension = entree_analogique.value * 3.3 / 65535
     print('tension: {:5.3f} V'.format(tension), end='; ')
     # calculer la résistance du potentiomètre
     r = Rtot*(1.0-tension/3.3)
-    print('valeur resistance: {: 6d} Ohms'.format(int(r)), end='; ')
     # calculer l'angle par le modèle
     angle = modele(r)
-    # afficher l'angle avec l'unité
-    print('angle: {: 3d} deg'.format(int(angle)))
-    # mettre la led en cyan (attente)
-    led[0] = (0, 150, 255)
+    # afficher la mesure
+    notif.notify(text='Ur={:3.2f}V\nr={:3.2e}Ohms\na={:3.0f}deg')
     # attendre 1s
     time.sleep(1)
 

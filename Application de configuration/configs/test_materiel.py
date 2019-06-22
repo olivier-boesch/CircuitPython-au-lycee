@@ -1,6 +1,6 @@
 # --------------------------------------------------------------------------
 # test_materiel :
-# test du microcontrolleur et des connexions
+# test du microcontroleur et des connexions
 # v1-2019 : olivier boesch
 # --------------------------------------------------------------------------
 # imports =================================
