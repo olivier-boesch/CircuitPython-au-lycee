@@ -20,7 +20,7 @@ fm_str = "A0A1A2A3A4A5A6\n"+ "{:2.1f}" * 6 + '\n' + '{:1d}' * 7
 notif.notify(color=PURPLE, text="test ecran")
 time.sleep(1)
 # test logo -------------------------------
-notif.show_logo_bin()
+notif.oled_logo('saintex_logo.bin')
 time.sleep(1)
 # test progress bar -----------------------
 notif.notify(color=CYAN, text='progress bar running')
@@ -30,7 +30,7 @@ for i in range(0, 101, 10):
 time.sleep(2)
 
 # test entrées ----------------------------
-analog_ins = []
+analog_ins = list()
 analog_ins.append(AnalogIn(board.A0))
 analog_ins.append(AnalogIn(board.A1))
 analog_ins.append(AnalogIn(board.A2))
@@ -38,7 +38,7 @@ analog_ins.append(AnalogIn(board.A3))
 analog_ins.append(AnalogIn(board.A4))
 analog_ins.append(AnalogIn(board.A5))
 
-digital_ins = []
+digital_ins = list()
 digital_ins.append(DigitalInOut(board.D4))
 digital_ins.append(DigitalInOut(board.D5))
 digital_ins.append(DigitalInOut(board.D6))
@@ -65,4 +65,4 @@ while True:
     for din in digital_ins:
         din_values[i] = din.value
         i += 1
-    notif.notify(color=YELLOW,fm_str.format(*ain_values,*din_values))
+    notif.notify(color=YELLOW,text=fm_str.format(*ain_values, *din_values))

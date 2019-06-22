@@ -11,7 +11,12 @@ broche_alimentation = board.D12  # broche d'alimentation du montage
 # -------------------------------------------------------
 
 
-# ################## MODELE A MODIFIER PAR L'ELEVE ############################
+# ################## MODELES A MODIFIER PAR L'ELEVE ############################
+def calcul_resistance(u):
+    r = u * 1.0
+    return r
+
+
 def calcul_temperature(R):
     temp = R * 1.0
     return temp
@@ -40,10 +45,10 @@ while True:
     # arrêter d'alimenter le montage (lecture ok de l'entrée)
     alimentation.value = False
     # calculer la résistance de la thermistance
-    r = Rpont * (3.3 / tension - 1)
+    r = calcul_resistance(tension)
     # calculer la température par le modèle
     temperature = calcul_temperature(r)
     # afficher la température avec l'unité
     notif.notify(text='Uctn={:3.2f}V\nr={:3.2e}Ohms\nT={:3.0f}deg C'.format(tension, r, temperature))
-    # attendre 2s1
+    # attendre 2s
     time.sleep(2)

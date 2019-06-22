@@ -5,11 +5,16 @@ from utilities import Notification
 
 # ------------ parametres (pour le professeur) ----------
 broche_entree = board.A0  # broche d'entree du potentiomètre
-Rpont = 10000  # Ohms - Résistance du pont
 # -------------------------------------------------------
 
 
-# ################## MODELE A MODIFIER PAR L'ELEVE ############################
+# ################## MODELES A MODIFIER PAR L'ELEVE ############################
+# calcul de la resistance
+def calcul_resistance(u):
+    r = u * 1.0
+    return r
+
+
 # calcul de la luminosité
 def calcul_luminosite(R):
     lum = R * 1.0
@@ -30,7 +35,7 @@ while True:
     # calculer la tension à l'entrée analogique
     tension = entree_analogique.value * 3.3 / 65535
     # calculer la résistance de la photorésistance
-    r = Rpont * (3.3 / tension - 1)
+    r = calcul_resistance(tension)
     # calculer la luminosité par le modèle
     luminosite = calcul_luminosite(r)
     # afficher les valeurs (lcd ou serie)
