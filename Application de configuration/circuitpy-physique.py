@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 import os
+# for windows : don't write on console -> leads to an error with pythonw.exe
 os.environ["KIVY_NO_CONSOLELOG"] = "1"
 # kivy import
 from kivy.config import Config
+# it's a desktop app
 Config.set('kivy', 'desktop', 1)
+# start with window maximized
 Config.set('graphics', 'window_state', 'maximized')
+# dosable right click -> otherwise it draws an orange circle
 Config.set('input', 'mouse', 'mouse,disable_multitouch')
 
 from kivy.app import App
@@ -12,6 +16,8 @@ from kivy.clock import Clock
 from kivy.uix.popup import Popup
 from kivy.logger import Logger
 import subprocess
+
+# file utilities for windows or linux
 if os.name == 'nt':
     import win32api
 elif os.name == 'posix':
@@ -19,13 +25,15 @@ elif os.name == 'posix':
 else:
     raise NotImplementedError
 
-mainpy_content = """
+# minimum content of code.py
+codepy_content = """
 # choix du capteur etudie
 capteur = '{}'
 
 
 """
 
+# content of code py for each config
 config_content = """
 if capteur == \'{0}\':
     import {0}
@@ -87,7 +95,7 @@ class CpypcApp(App):
         else:
             raise NotImplementedError
         Logger.info('Drives : {}'.format(self.micro_drives))
-        self.root.ids['info_lbl'].text = str(len(self.micro_drives)) + ' microcontroleur(s)\n' + str(len(self.root.ids['config_spnr'].values)) + ' configuration(s)'
+        self.root.ids['info_lbl'].text = str(len(self.micro_drives)) + ' microcontr\u00f4leur(s)\n' + str(len(self.root.ids['config_spnr'].values)) + ' configuration(s)'
 
     def set_config_type(self, txt):
         if txt != '-- Configuration --':
@@ -96,7 +104,7 @@ class CpypcApp(App):
     def perform_config(self):
         if self.root.ids['config_spnr'].text == '-- Configuration --':
             p = PopupMessage()
-            p.set_message('Configuration','Veuillez choisir la configuration des microcontroleurs')
+            p.set_message('Configuration', 'Veuillez choisir la configuration des microcontr\u00f4leurs')
             p.open()
             return
         self.config_main()
@@ -105,12 +113,12 @@ class CpypcApp(App):
         try:
             for d in self.micro_drives:
                 if os.name == 'nt':
-                    f = open(d+'main.py','w')
+                    f = open(d+'code.py','w')
                 elif os.name == 'posix':
-                    f = open(d+'/main.py','w')
+                    f = open(d+'/code.py','w')
                 else:
                     raise NotImplementedError
-                f.write(mainpy_content.format(self.config_type))
+                f.write(codepy_content.format(self.config_type))
                 for c in self.configs:
                     f.write(config_content.format(c))
                 f.flush()
@@ -122,12 +130,12 @@ class CpypcApp(App):
                 else:
                     raise NotImplementedError
                 p = PopupMessage()
-                p.set_message('Ecriture Ok','les {0} microcontroleurs\nsont configures pour {1}'.format(len(self.micro_drives), self.config_type))
+                p.set_message('Ecriture Ok', 'les {0} microcontr\u00f4leurs\nsont configur\u00e9es pour {1}'.format(len(self.micro_drives), self.config_type))
                 p.open()
         except subprocess.CalledProcessError as e:
             Logger.warning ('subprocess copy : unable to copy ({0} : {1}'.format(e.cmd,e.output))
             p = PopupMessage()
-            p.set_message('Erreur ecriture','impossible d\'ecrire la configuration')
+            p.set_message('Erreur \u00e9criture', 'impossible d\'\u00e9crire la configuration')
             p.open()
 
 

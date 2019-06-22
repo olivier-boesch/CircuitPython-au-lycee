@@ -3,7 +3,7 @@ BoxLayout:
     spacing: '50 dp'
     orientation: 'vertical'
     Label:
-        text: 'Configuration des microcontroleurs pour les TP de physique'
+        text: 'Configuration des microcontr\u00f4leurs pour les TP de physique'
         font_size: '40 sp'
     Label:
         id: info_lbl
@@ -20,7 +20,7 @@ BoxLayout:
         text: '-- Configuration --'
         on_text: app.set_config_type(self.text)
     Button:
-        text: 'Configurer le(s) \u00b5Controleur(s)'
+        text: 'Configurer le(s) \u00b5Contr\u00f4leur(s)'
         on_press: app.perform_config()
     Button:
         text: 'Quitter'
