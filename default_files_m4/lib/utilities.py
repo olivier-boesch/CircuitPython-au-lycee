@@ -3,6 +3,7 @@ import board
 import neopixel
 import busio
 import adafruit_ssd1306
+from digitalio import DigitalInOut, Direction, Pull
 
 # -------- colors
 RED = (255, 0, 0)
@@ -117,22 +118,23 @@ class Notification:
                 print('progress : ', percent)
 
     def oled_logo(self, filename):
-        self.oled_display.fill(0)
-        f = open(filename, 'rb')
-        x = 0
-        y = 0
-        for i in range((self._width * self._height) // 8):
-            c = f.read(1)
-            ci = int.from_bytes(c, 'little')
-            for j in range(8):
-                if ci & (1 << j) > 0:
-                    self.oled_display.pixel(x, y, 1)
-                x += 1
-            if ((i + 1) * 8) % self._width == 0:
-                x = 0
-                y += 1
-        f.close()
-        self.oled_display.show()
+        if self.oled_display:
+            self.oled_display.fill(0)
+            f = open(filename, 'rb')
+            x = 0
+            y = 0
+            for i in range((self._width * self._height) // 8):
+                c = f.read(1)
+                ci = int.from_bytes(c, 'little')
+                for j in range(8):
+                    if ci & (1 << j) > 0:
+                        self.oled_display.pixel(x, y, 1)
+                    x += 1
+                if ((i + 1) * 8) % self._width == 0:
+                    x = 0
+                    y += 1
+            f.close()
+            self.oled_display.show()
 
     def show_logo_bin(self):
         # display logo for 1s if oled is connected
@@ -144,5 +146,26 @@ class Notification:
         if not self.oled_display or startup:
             self.npx.fill(color)
             self.npx.show()
+
+
+class Button:
+    _state = False
+    _reverse = False
+
+    def __init__(self, pin, reverse=False):
+        self._btn = DigitalInOut(pin)
+        self._btn.direction = Direction.INPUT
+        self._btn.pull = Pull.UP
+        self._reverse = reverse
+
+    def check(self):
+        self._state = self._btn.value
+
+    def is_pushed(self):
+        if self._reverse:
+            return not self._state
+        else:
+            return self._state
+
 
 # -------- end

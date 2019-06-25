@@ -8,7 +8,7 @@ from kivy.config import Config
 Config.set('kivy', 'desktop', 1)
 # start with window maximized
 Config.set('graphics', 'window_state', 'maximized')
-# dosable right click -> otherwise it draws an orange circle
+# disable right click -> otherwise it draws an orange circle
 Config.set('input', 'mouse', 'mouse,disable_multitouch')
 
 from kivy.app import App
