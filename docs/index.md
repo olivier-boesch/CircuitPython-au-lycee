@@ -20,7 +20,7 @@ avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteur
 
 ## Merci
 
-Un grand merci à Antony Meunier, Professeur de STI2D Sin au lycée Saint éxupéry, pour l'aide au design et la maîtrise de la découpe laser.
+Un grand merci à Antony Meunier, Professeur de STI2D Itec au lycée Saint éxupéry, pour l'aide au design et la maîtrise de la découpe laser.
 
 A Mmes Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicienne et adjointes de laboratoire, pour l'aide au montage et l'enthousiasme (1140 soudures à 2! sans compter le montage...).
 
