@@ -12,6 +12,7 @@ avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteur
 
 [Vous voulez fabriquer votre ensemble de platines : C'est par là...](https://olivier-boesch.github.io/CircuitPython-au-lycee/fabrication)
 
+
 [Le Design est expliqué ici](https://olivier-boesch.github.io/CircuitPython-au-lycee/design)
 
 [Un petit tutoriel sur CircuitPython](https://olivier-boesch.github.io/CircuitPython-au-lycee/circuitpython)
