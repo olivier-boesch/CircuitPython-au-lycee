@@ -1,6 +1,6 @@
 BoxLayout:
     padding: '20 dp'
-    spacing: '50 dp'
+    spacing: '10 dp'
     orientation: 'vertical'
     Label:
         text: 'Configuration des microcontr\u00f4leurs pour les TP de physique'
@@ -13,12 +13,12 @@ BoxLayout:
         halign: 'center'
         valign: 'center'
     Label:
+        id: choosen_config_lbl
         text: 'Configuration choisie:'
         font_size: '15 sp'
-    Spinner:
-        id: config_spnr
-        text: '-- Configuration --'
-        on_text: app.set_config_type(self.text)
+    GridLayout:
+        id: config_grid
+        cols: 4
     Button:
         text: 'Configurer le(s) \u00b5Contr\u00f4leur(s)'
         on_press: app.perform_config()

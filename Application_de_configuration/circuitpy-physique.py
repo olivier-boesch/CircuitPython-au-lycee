@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 # for windows : don't write on console -> leads to an error with pythonw.exe
-os.environ["KIVY_NO_CONSOLELOG"] = "1"
-# kivy import
+if os.name == 'nt':
+    os.environ["KIVY_NO_CONSOLELOG"] = "1"
+# kivy config import
 from kivy.config import Config
 # it's a desktop app
 Config.set('kivy', 'desktop', 1)
@@ -10,11 +11,13 @@ Config.set('kivy', 'desktop', 1)
 Config.set('graphics', 'window_state', 'maximized')
 # disable right click -> otherwise it draws an orange circle
 Config.set('input', 'mouse', 'mouse,disable_multitouch')
-
+# kivy components import
 from kivy.app import App
 from kivy.clock import Clock
 from kivy.uix.popup import Popup
+from kivy.uix.togglebutton import ToggleButton
 from kivy.logger import Logger
+# for process call (cp or copy) in shell
 import subprocess
 
 # file utilities for windows or linux
@@ -74,7 +77,10 @@ class CpypcApp(App):
         self.configs = glob.glob(config_path + '*.py')
         for i in range(len(self.configs)):
             self.configs[i] = self.configs[i].replace(config_path, '').replace('.py', '')
-        self.root.ids['config_spnr'].values = [c for c in self.configs]
+        for config in self.configs:
+            b = ToggleButton(text = config, group='configs')
+            b.bind(state=self.set_config_type)
+            self.root.ids['config_grid'].add_widget(b)
 
     def update_drives(self):
         self.micro_drives = []
@@ -95,19 +101,29 @@ class CpypcApp(App):
         else:
             raise NotImplementedError
         Logger.info('Drives : {}'.format(self.micro_drives))
-        self.root.ids['info_lbl'].text = str(len(self.micro_drives)) + ' microcontr\u00f4leur(s)\n' + str(len(self.root.ids['config_spnr'].values)) + ' configuration(s)'
+        self.root.ids['info_lbl'].text = str(len(self.micro_drives)) + ' microcontr\u00f4leur(s)\n' + str(len(self.configs)) + ' configuration(s)'
 
-    def set_config_type(self, txt):
-        if txt != '-- Configuration --':
-            self.config_type = txt
+    def set_config_type(self, button, state):
+        if state == 'down':
+            self.config_type = button.text
+            self.root.ids['choosen_config_lbl'].text = "Configuration choisie: " + button.text
+        else:
+            self.config_type = None
+            self.root.ids['choosen_config_lbl'].text = "Configuration choisie: "
+            
         
     def perform_config(self):
-        if self.root.ids['config_spnr'].text == '-- Configuration --':
+        if self.config_type is None:
             p = PopupMessage()
-            p.set_message('Configuration', 'Veuillez choisir la configuration des microcontr\u00f4leurs')
+            p.set_message("Erreur de configuration", "Veuillez choisir une configuration")
             p.open()
-            return
-        self.config_main()
+        elif len(self.micro_drives) == 0:
+            p = PopupMessage()
+            p.set_message("Erreur de configuration", "Veuillez brancher au moins un microcontr\u00f4leur")
+            p.open()
+            
+        else:
+            self.config_main()
 
     def config_main(self):
         try:

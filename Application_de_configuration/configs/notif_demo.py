@@ -13,7 +13,7 @@ while True:
     notif.notify(color=GREEN, text='you will see\na logo loaded\nfrom a file')
     time.sleep(2)
 
-    notif.oled_logo('saintex_logo.bin')
+    notif.oled_logo('logo.bin')
     time.sleep(1)
 
     notif.notify(color=CYAN, text='an horizontal\nprogress bar running\nvery slow :(')
