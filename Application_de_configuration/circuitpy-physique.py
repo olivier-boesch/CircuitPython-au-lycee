@@ -146,7 +146,7 @@ class CpypcApp(App):
                 else:
                     raise NotImplementedError
                 p = PopupMessage()
-                p.set_message('Ecriture Ok', 'les {0} microcontr\u00f4leurs\nsont configur\u00e9es pour {1}'.format(len(self.micro_drives), self.config_type))
+                p.set_message('Ecriture Ok', '{0} microcontr\u00f4leur(s)\nsont configur\u00e9s pour {1}'.format(len(self.micro_drives), self.config_type))
                 p.open()
         except subprocess.CalledProcessError as e:
             Logger.warning ('subprocess copy : unable to copy ({0} : {1}'.format(e.cmd,e.output))

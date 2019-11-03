@@ -64,7 +64,8 @@ class Notification:
     def print_data_tuple(self,text=''):
         import re
         s = '('
-        numbers_list = re.findall(r"[-+]?\d*\.\d+|\d+", text)
+        regexobj = re.compile(r"[-+]?\d*\.\d+|\d+"
+        numbers_list = regexp.split(text)
         for number in numbers_list:
             s += str(number) + ','
         print(s[:-1] + ')')
@@ -135,6 +136,8 @@ class Notification:
                     y += 1
             f.close()
             self.oled_display.show()
+        if self._always_serial_output:
+            print("logo displayed :", filename)
 
     def show_logo_bin(self):
         # display logo for 1s if oled is connected
@@ -149,13 +152,12 @@ class Notification:
 
 
 class Button:
-    _state = False
-    _reverse = False
 
     def __init__(self, pin, reverse=False):
         self._btn = DigitalInOut(pin)
         self._btn.direction = Direction.INPUT
         self._btn.pull = Pull.UP
+        self._state = False
         self._reverse = reverse
 
     def check(self):
@@ -166,6 +168,9 @@ class Button:
             return not self._state
         else:
             return self._state
+
+    def __repr__(self):
+        return 'Button ('+str(self.is_pushed())+')'
 
 
 # -------- end
