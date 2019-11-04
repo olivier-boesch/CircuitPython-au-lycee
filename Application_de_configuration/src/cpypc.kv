@@ -1,11 +1,13 @@
 BoxLayout:
-    padding: '20 dp'
-    spacing: '10 dp'
+    padding: '10 dp'
+    spacing: '5 dp'
     orientation: 'vertical'
     Label:
+        size_hint_y: 0.1
         text: 'Configuration des microcontr\u00f4leurs pour les TP de physique'
-        font_size: '40 sp'
+        font_size: '30 sp'
     Label:
+        size_hint_y: 0.1
         id: info_lbl
         text: 'Pret'
         font_size: '20 sp'
@@ -13,22 +15,23 @@ BoxLayout:
         halign: 'center'
         valign: 'center'
     Label:
+        size_hint_y: 0.1
         id: choosen_config_lbl
         text: 'Configuration choisie:'
-        font_size: '15 sp'
+        font_size: '20 sp'
     GridLayout:
         id: config_grid
         cols: 4
     Button:
+        size_hint_y: 0.1
         text: 'Configurer le(s) \u00b5Contr\u00f4leur(s)'
         on_release: app.perform_config()
     Button:
-        text: 'Mise \u001f jour des \u00b5Contr\u00f4leur(s) (firmware et fichier par d\u00e9faut)'
-        on_release: app.perform_update()
-    Button:
+        size_hint_y: 0.1
         text: 'Quitter'
         on_release: app.stop()
     Label:
+        size_hint_y: 0.1
         text: 'circuitpy-physique - Olivier Boesch \u00a9 2019 - Configuration automatique de \u00b5C pour CircuitPython\nlicence MIT'
         text_size: self.size
         halign: 'center'
@@ -38,7 +41,6 @@ BoxLayout:
     size: '400 dp','130 dp'
     pos_hint: {'top': 0.95, 'right':0.98}
     auto_dismiss: True
-    on_open: root.when_opened()
     BoxLayout:
         orientation: 'vertical'
         Label:
