@@ -1,4 +1,9 @@
-import time
+# ------------------------------------
+# Utilities : utilities.py
+# Classes to help interaction with M4 express and oled feather wing
+# Olivier Boesch (c) 2019
+# Licence : MIT
+# ------------------------------------
 import board
 import neopixel
 import busio
@@ -19,7 +24,6 @@ OFF = (0, 0, 0)
 # ---------- notification class
 class Notification:
     """Notification class for led and oled screen"""
-
     def __init__(self, print_data_tuple=False, always_serial_output=False, lcd_width=128, lcd_height=32):
         """setup oled scrren if connected and builtin neopixel"""
         self._width = lcd_width    # width of screen in px
@@ -64,7 +68,7 @@ class Notification:
     def print_data_tuple(self,text=''):
         import re
         s = '('
-        regexobj = re.compile(r"[-+]?\d*\.\d+|\d+"
+        regexobj = re.compile(r"[-+]?\d*\.\d+|\d+")
         numbers_list = regexp.split(text)
         for number in numbers_list:
             s += str(number) + ','
@@ -139,12 +143,6 @@ class Notification:
         if self._always_serial_output:
             print("logo displayed :", filename)
 
-    def show_logo_bin(self):
-        # display logo for 1s if oled is connected
-        if self.oled_display:
-            self.oled_logo('logo.bin')
-            time.sleep(1)
-
     def led(self, color, startup=False):
         if not self.oled_display or startup:
             self.npx.fill(color)
@@ -152,25 +150,29 @@ class Notification:
 
 
 class Button:
-
-    def __init__(self, pin, reverse=False):
+    """Button: helper class to manage button"""
+    def __init__(self, pin, name="", reverse=False):
         self._btn = DigitalInOut(pin)
         self._btn.direction = Direction.INPUT
         self._btn.pull = Pull.UP
         self._state = False
         self._reverse = reverse
+        self._name = name
 
     def check(self):
+        """check: update state of button"""
         self._state = self._btn.value
 
     def is_pushed(self):
+        """is_pushed: returns True if button is pushed( or not if reverse==True)"""
         if self._reverse:
             return not self._state
         else:
             return self._state
 
     def __repr__(self):
-        return 'Button ('+str(self.is_pushed())+')'
+        """print button state"""
+        return 'Button ' + self._name + '('+str(self.is_pushed())+')'
 
 
 # -------- end
