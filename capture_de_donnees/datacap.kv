@@ -3,18 +3,21 @@ BoxLayout:
     spacing: 5
     orientation: 'vertical'
     Label:
+        size_hint_y: 0.2
         text: 'Port Serie'
     Spinner:
         id: port_spnnr
         text: 'TEST'
         on_text: app.change_serial_port(self.text)
     Label:
+        size_hint_y: 0.2
         text: 'Options'
     Button:
         text: 'Format...'
     Button:
         text: 'Destination du Fichier...'
     Label:
+        size_hint_y: 0.2
         text: 'Capture de données'
     Button:
         text: '! Capturer des donnees !'
