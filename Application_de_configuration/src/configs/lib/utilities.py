@@ -96,6 +96,11 @@ class Notification:
         """display an horizontal bar on oled display; percent = 0-100%"""
         # draw only if oled_display is running
         if self.oled_display:
+            # constrain percent
+            if percent > 100.0:
+                percent = 100
+            elif percent < 0.0:
+                percent = 0
             # cal size for percent
             barwidth = int((percent * (self._width - 31)) / 100.0)
             # reset oled to black
@@ -124,24 +129,35 @@ class Notification:
 
     def oled_logo(self, filename):
         if self.oled_display:
-            self.oled_display.fill(0)
-            f = open(filename, 'rb')
-            x = 0
-            y = 0
-            for i in range((self._width * self._height) // 8):
-                c = f.read(1)
-                ci = int.from_bytes(c, 'little')
-                for j in range(8):
-                    if ci & (1 << j) > 0:
-                        self.oled_display.pixel(x, y, 1)
-                    x += 1
-                if ((i + 1) * 8) % self._width == 0:
-                    x = 0
-                    y += 1
-            f.close()
-            self.oled_display.show()
-        if self._always_serial_output:
-            print("logo displayed :", filename)
+            # try to open file and display it
+            try:
+                # open file
+                f = open(filename, 'rb')
+                # empty display (fill with black)
+                self.oled_display.fill(0)
+                # draw the file (1bit/px raw)
+                x = 0
+                y = 0
+                for i in range((self._width * self._height) // 8):
+                    c = f.read(1)
+                    ci = int.from_bytes(c, 'little')
+                    for j in range(8):
+                        if ci & (1 << j) > 0:
+                            self.oled_display.pixel(x, y, 1)
+                        x += 1
+                    if ((i + 1) * 8) % self._width == 0:
+                        x = 0
+                        y += 1
+                # close file
+                f.close()
+                # send image to display
+                self.oled_display.show()
+                # tell if user asked to print to serial
+                if self._always_serial_output:
+                    print("logo displayed :", filename)
+            # display an error if we can't open file
+            except OSError as e:
+                print("Erreur (", filename, "):", e)
 
     def led(self, color, startup=False):
         if not self.oled_display or startup:

@@ -2,6 +2,7 @@
 import os
 import os.path
 import distutils.dir_util
+import time
 # ------------ now useless with PyInstaller and --noconsole option
 # for windows : don't write on console -> leads to an error with pythonw.exe
 # if os.name == 'nt':
@@ -85,6 +86,8 @@ class CpypcApp(App):
 
     def build(self):
         """app graphical startup"""
+        #set app window name
+        self.title = 'CirPyConfig'
         # schedule drives update at 1s interval
         self.drive_update = Clock.schedule_interval(lambda dt: self.update_drives(), 1.0)
         # schedule config at startup (0.2s)
@@ -111,6 +114,8 @@ class CpypcApp(App):
         else:
             raise NotImplementedError
         self.configs = glob.glob(config_path + '*.py')
+        # rename file with accents
+        
         # remove '.py' and path
         for i in range(len(self.configs)):
             self.configs[i] = self.configs[i].replace(config_path, '').replace('.py', '')
@@ -192,6 +197,8 @@ class CpypcApp(App):
                 Logger.info("Copy files: from " + src + " to " + d)
                 ret = distutils.dir_util.copy_tree(src, d, preserve_mode=0, preserve_times=0, preserve_symlinks=0, update=0, verbose=0, dry_run=0)
                 Logger.info("Copy files: done ->" + str(ret))
+                # wait a little
+                time.sleep(0.1)
                  # open code.py file
                 f = open(os.path.join(d, 'code.py'), 'w')
                 # write code.py file
