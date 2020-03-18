@@ -29,7 +29,7 @@ After that, I some more handy ports to make my students have a better experience
 * Add breadboard to make circuity
 * Put everything together to move it easily
 
-## the result
+## The result
 
 The first proto looks like this :
 

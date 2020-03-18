@@ -189,14 +189,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="6896000" />
-    </task>
-    <task id="LOCAL-00067" summary="début de tutoriel circuitpython">
-      <created>1560962209665</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1560962209665</updated>
+      <workItem from="1584563360668" duration="6924000" />
     </task>
     <task id="LOCAL-00068" summary="suite du tutoriel circuitpython">
       <created>1560962850157</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584570577981</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="update index.md">
+      <created>1584571204270</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1584571204270</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,14 +623,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="update index.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584570577881">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584571204187">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584570577881" />
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584570582995">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584571204187" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584571208644">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584570582995" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584571208644" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CircuitPython_au_lycee$datacap.coverage" NAME="datacap Coverage Results" MODIFIED="1572905538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/capture_de_donnees" />
