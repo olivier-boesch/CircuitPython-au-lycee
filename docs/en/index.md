@@ -1,5 +1,7 @@
 # The project
 
+This is v2 of this project
+
 ## why this project
 This project is all about teaching physics and chemistry with microcontrollers.
 
