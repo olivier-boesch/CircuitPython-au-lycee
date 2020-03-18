@@ -35,9 +35,27 @@ The first proto looks like this :
 
 ![Board](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu_500.jpg "Board")
 
+## You want to  build one by yourself
+
+Everything is on the github repo (see top of page)
+
+## You want buy one already made
+
+One manufacturer of teaching hardware in france is building this.
+
+Please contact :
+```
+Maison des Enseignants de Provence (MEP)
+https://www.la-mep.com/
+268 avevue de la capelette
+Bat H
+13010 Marseille
+France
+
+Tel : +33 4 91 78 02 01
+email : commande@la-mep.com
+```
+
 ## Many thanks to :
-Un grand merci à Antony Meunier, Professeur de STI2D Itec au lycée Saint éxupéry, pour l'aide au design et la maîtrise de la découpe laser.
-
-A Mmes Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicienne et adjointes de laboratoire, pour l'aide au montage et l'enthousiasme (1140 soudures à 2! sans compter le montage...).
-
-A Damien Muti, professeur de physique chimie en section arts appliqués et générale, pour m'avoir soufflée l'idée du tutoriel sur CircuitPython. 
+A great thank to Antony Meunier, Engineering teacher in the lycée Saint éxupéry, for his help of the design of v1 of this board and his mastering in lasercut.
+A Ms Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicians in physics and chemistry, for their help in the v1 assembly. 
