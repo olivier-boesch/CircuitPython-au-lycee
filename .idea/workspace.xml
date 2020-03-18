@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/circuitpython.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/circuitpython.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,14 +181,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="2144000" />
-    </task>
-    <task id="LOCAL-00061" summary="ajout déroulement tp">
-      <created>1560894484669</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1560894484669</updated>
+      <workItem from="1584563360668" duration="2418000" />
     </task>
     <task id="LOCAL-00062" summary="fichiers capteur angle">
       <created>1560896257628</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584565331237</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="added jekyll multiple languages plugin">
+      <created>1584565540035</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565540035</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="text corrections" />
     <MESSAGE value="text corrections on index" />
     <MESSAGE value="images platine capteur et µC" />
     <MESSAGE value="integration photo platines terminées" />
@@ -612,17 +611,18 @@
     <MESSAGE value="structure and website change (huge !)" />
     <MESSAGE value="ajout de fenetre d'operation et fermeture auto des dialogues" />
     <MESSAGE value="tf -&gt; t in mds" />
-    <option name="LAST_COMMIT_MESSAGE" value="tf -&gt; t in mds" />
+    <MESSAGE value="added jekyll multiple languages plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jekyll multiple languages plugin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584565331136">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584565539947">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565331136" />
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584565338372">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565539947" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584565545999">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565338372" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565545999" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CircuitPython_au_lycee$datacap.coverage" NAME="datacap Coverage Results" MODIFIED="1572905538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/capture_de_donnees" />
