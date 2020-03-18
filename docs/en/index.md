@@ -24,7 +24,7 @@ After some trial/errors, my best candidate is the Adafruit feather M4 express :
 
 ## A step further
 
-After that, I some more handy ports to make my students have a better experience with that board:
+After that, I nedded some more handy ports to make my students have a better experience with that board:
 * Add an arduino like port to connect cables and teach them electricity
 * Add some grove port when we are using sensors/actuators
 * Add a 3.5mm jack plug to output audio easily to speakers/headphones
@@ -59,5 +59,5 @@ email : commande@la-mep.com
 ```
 
 ## Many thanks to :
-A great thank to Antony Meunier, Engineering teacher in the lycée Saint éxupéry, for his help of the design of v1 of this board and his mastering in lasercut.
-A Ms Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicians in physics and chemistry, for their help in the v1 assembly. 
+To Antony Meunier, Engineering teacher in the lycée Saint éxupéry, for his help of the design of v1 of this board and his mastering in lasercut.
+To Ms Ourida Smahi, Sylvie Ségui et Chantal Le Nivet, technicians in physics and chemistry, for their help in the v1 assembly. 

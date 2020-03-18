@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/fr/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/en/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/en/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +43,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/en" />
       <recent name="$PROJECT_DIR$/software" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/docs/_i18n/fr" />
       <recent name="$PROJECT_DIR$/Application_de_configuration/src" />
-      <recent name="$PROJECT_DIR$/docs/tp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/fr" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docs/_i18n/en" />
       <recent name="$PROJECT_DIR$/Application de configuration/configs" />
@@ -189,14 +191,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="7002000" />
-    </task>
-    <task id="LOCAL-00069" summary="suite du tutoriel circuitpython">
-      <created>1560962885449</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1560962885449</updated>
+      <workItem from="1584563360668" duration="8449000" />
     </task>
     <task id="LOCAL-00070" summary="suite du tutoriel circuitpython">
       <created>1560967452318</created>
@@ -534,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584571242976</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="website structure&#10;added index.html&#10;moved index.md in en directory">
+      <created>1584571528586</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1584571528587</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +597,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="code modification" />
     <MESSAGE value="config avec ou sans calculs de Rpont, correction de code" />
     <MESSAGE value="reorganisation/renommage de fichiers" />
     <MESSAGE value="renommage de dossier sans espace" />
@@ -620,13 +621,14 @@
     <MESSAGE value="config.yml in root directory" />
     <MESSAGE value="complete directory tree change&#10;update to v2" />
     <MESSAGE value="update index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.md" />
+    <MESSAGE value="website structure&#10;added index.html&#10;moved index.md in en directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="website structure&#10;added index.html&#10;moved index.md in en directory" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584571242889">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584571528497">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584571242889" />
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584571528497" />
     <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584571479972">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
