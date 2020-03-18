@@ -36,7 +36,7 @@ Après ça, J'avais besoin de connectique qui s'adapte aux besoins des élèves 
 
 Le premier prototype ressemble à ceci
 
-![Board](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu_500.jpg "Board")
+[![Board](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu_500.jpg "Board")](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu.jpg)
 
 ## Vous voulez en construire une vous même
 

@@ -35,7 +35,7 @@ After that, I nedded some more handy ports to make my students have a better exp
 
 The first proto looks like this :
 
-![Board](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu_500.jpg "Board")
+[![Board](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu_500.jpg "Board")](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/docs/assets/pythonmcu.jpg)
 
 ## You want to  build one by yourself
 
