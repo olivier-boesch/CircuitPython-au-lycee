@@ -1,27 +1,12 @@
-# Le projet
+# The project
 
-> __Attention__ : Le travail est en cours... beaucoup de choses restent à faire......
+This project is all about teaching physics and chemistry with microcontrollers.
 
-![La platine complète](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/materiel/platine_experimentation/platine_compl%C3%A8te.jpg)
-
-## Objectif
-Fournir une solution matérielle et logicielle à base d'un microcontrôleur pouvant être programmé avec python.
-Les plans de fabrication sont fournis ainsi que des propositions de séances de travaux pratiques.
-
-## Contenu
-On se propose ici de fabriquer un platine comportant un microcontrôleur m4 express de Adafruit
-avec une breadboard ainsi qu'un boitier pour capteur d'angle. Les autres capteurs (thermistance et photorésistance) ne nécessitent pas de fabrication de boitier.
-
-[Vous voulez fabriquer votre ensemble de platines : C'est par là...](https://olivier-boesch.github.io/CircuitPython-au-lycee/fabrication)
-
-
-[Le Design est expliqué ici](https://olivier-boesch.github.io/CircuitPython-au-lycee/design)
-
-[Un petit tutoriel sur CircuitPython](https://olivier-boesch.github.io/CircuitPython-au-lycee/circuitpython)
-
-[Les propositions de séances de travaux pratiques sont là](https://olivier-boesch.github.io/CircuitPython-au-lycee/tp/tp_capteur)
-
-## Merci
+Not satisfied with arduino board, i searched for a microtroller that suits my needs :
+* Can be programmed with python (and C if I need more performance)
+* Can output a true analog signal (not just pwm).
+* a screen already integrated or can fit easily on top
+* some buttons are useful  
 
 Un grand merci à Antony Meunier, Professeur de STI2D Itec au lycée Saint éxupéry, pour l'aide au design et la maîtrise de la découpe laser.
 
