@@ -1,1 +1,1 @@
-{% tf index.md %}
+{% t index.md %}

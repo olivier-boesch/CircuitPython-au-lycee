@@ -1,1 +1,1 @@
-{% tf design.md %}
+{% t design.md %}
