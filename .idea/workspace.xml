@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="ajout de fenetre d'operation et fermeture auto des dialogues">
-      <change afterPath="$PROJECT_DIR$/docs/_i18n/fr/circuitpython.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_i18n/fr/design.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_i18n/fr/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/CirPyConfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_bz2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
@@ -31,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/capteur_angle.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/capteur_angle_resistance_pont.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/font5x8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_bus_device/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_i18n/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_bus_device/i2c_device.mpy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_bus_device/spi_device.mpy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_framebuf.mpy" beforeDir="false" />
@@ -253,7 +249,6 @@
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/resource.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/termios.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/tools/RemoveDrive.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/CirPyConfig.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/Include/pyconfig.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.FLAC.txt" beforeDir="false" />
@@ -277,7 +272,6 @@
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/capteur_angle.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/capteur_angle_resistance_pont.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/font5x8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_bus_device/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_i18n/fr.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_bus_device/i2c_device.mpy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_bus_device/spi_device.mpy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_framebuf.mpy" beforeDir="false" />
@@ -436,104 +430,7 @@
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/pywintypes37.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/tools/RemoveDrive.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/capteur_papillon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/montage_angle.fzz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/montage_angle_bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/montage_angle_bb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/montage_angle_schéma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/montage_angle_schéma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/angle/wahwah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/luminosité/montage_ldr.fzz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/luminosité/montage_ldr_bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/luminosité/montage_ldr_bb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/luminosité/montage_ldr_schéma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/luminosité/montage_ldr_schéma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/temperature/montage_ctn.fzz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/temperature/montage_ctn_bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/temperature/montage_ctn_bb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/temperature/montage_ctn_schéma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/Seconde/capteur/temperature/montage_ctn_schéma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_de_donnees/datacap.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_de_donnees/datacap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/font5x8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/adafruit_bus_device/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/adafruit_bus_device/i2c_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/adafruit_bus_device/spi_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/adafruit_framebuf.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/adafruit_ssd1306.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/neopixel.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/simpleio.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/lib/utilities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/media/logo_mep.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/media/logo_stex.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_files_m4/media/logo_test.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/circuitpython.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/circuitpython.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fabrication.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/I.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/M.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/O.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_0.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_1.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_2.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_3.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_4.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_5.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_6.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/bat_low.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/convert_all.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/convert_icon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/cross.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/down.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/exclamation.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icons.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/left.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/level_0.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/level_1.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/level_2.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/level_3.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/level_4.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/question.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/right.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/space.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/up.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessous.dxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessous.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessous.svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessus.svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessus_100k.dxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_dessus_10k.dxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/Platine_capteur_angle/plaque_pot_terminee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/boulon_m3-10mm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_capteur_angle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_capteur_angle.scad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_capteur_angle.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_capteur_angle_3d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_plaque_ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_plaque_ex.scad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/assemblage/entretoise_plaque_ex.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/m4express/featherm4express.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/m4express/m4expresspinout.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/m4express/m4expresspinout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/m4express/m4expresspinout_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/m4_gerber.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/m4_svg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/m4v06-2019.fzz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/m4v06-2019_pcb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/pcb_back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/pcb_back_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/pcb_front.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/pcb/pcb_front_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/photo_plaque_expérimentation_pc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/plaque_expérimentation_pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/plaque_expérimentation_pc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/platine_complète.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/platine_mc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiel/platine_experimentation/platine_nue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/release/Matériel_v1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_i18n/fr/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_i18n/fr/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -572,6 +469,7 @@
       <recent name="$PROJECT_DIR$/TP_ECE/Seconde/capteur" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/_i18n/en" />
       <recent name="$PROJECT_DIR$/Application de configuration/configs" />
     </key>
   </component>
@@ -710,14 +608,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="1549000" />
-    </task>
-    <task id="LOCAL-00058" summary="corrected text">
-      <created>1560413527303</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1560413527303</updated>
+      <workItem from="1584563360668" duration="1804000" />
     </task>
     <task id="LOCAL-00059" summary="corrected text">
       <created>1560893375259</created>
@@ -1055,7 +946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572999738630</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="structure and website change (huge !)">
+      <created>1584565058365</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565058366</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1116,7 +1014,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ajout photo plaque expérimentation" />
     <MESSAGE value="added warning on index : work in progress" />
     <MESSAGE value="text corrections" />
     <MESSAGE value="text corrections on index" />
@@ -1141,7 +1038,18 @@
     <MESSAGE value="ajout package windows" />
     <MESSAGE value="modif gui datacap" />
     <MESSAGE value="source appli config ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="source appli config ok" />
+    <MESSAGE value="structure and website change (huge !)" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure and website change (huge !)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584565057907">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565057907" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584565065169">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565065169" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CircuitPython_au_lycee$datacap.coverage" NAME="datacap Coverage Results" MODIFIED="1572905538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/capture_de_donnees" />

@@ -1,6 +1,6 @@
 # Le projet
 
-> __Attention__ : Le travail est en cours... beaucoup de choses restent à faire...
+> __Attention__ : Le travail est en cours... beaucoup de choses restent à faire......
 
 ![La platine complète](https://github.com/olivier-boesch/CircuitPython-au-lycee/raw/master/materiel/platine_experimentation/platine_compl%C3%A8te.jpg)
 
