@@ -1,0 +1,5 @@
+site:
+  name: CircuitPython au Lycée
+  tagline: Adafruit circuitpython and m4 express used for teaching
+  description: This site shows a software/hardware solution based on adafruit feather m4 express and featherwing oled
+  keywords: adafruit, m4, express, feather, featherwing, physics, chemistry, teaching, france, python, circuitpython
