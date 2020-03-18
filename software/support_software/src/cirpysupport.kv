@@ -1,0 +1,53 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+    Label:
+        text: 'CirPySupport : Formatage du système de fichiers du Python µC\n ne connecter qu\'un microcontroleur à la fois'
+        font_name: 'Oxanium-Light.ttf'
+    Label:
+        id: mcu_lbl
+        text: "0 microcontrôleurs détectés"
+        font_name: 'Oxanium-Light.ttf'
+    Button:
+        text: 'Formatter le stockage'
+        on_release: app.open_confirm()
+        font_name: 'Oxanium-Light.ttf'
+        
+        
+<ConfirmPopup@Popup>
+    id: confirm_popup
+    size_hint_x: 0.5
+    size_hint_y: 0.5
+    auto_dismiss: False
+    title: "Confirmer ?"
+    title_font: 'Oxanium-Light.ttf'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Confirmer le formattage de la carte ?\nToutes les données seront effacée !"
+            font_name: 'Oxanium-Light.ttf'
+        BoxLayout:
+            orientation: "horizontal"
+            padding: 20
+            spacing: 10
+            Button:
+                text: "Oui"
+                on_release: app.format_storage()
+                font_name: 'Oxanium-Light.ttf'
+            Button:
+                text: "Non"
+                on_release: confirm_popup.dismiss()
+                font_name: 'Oxanium-Light.ttf'
+                
+                
+<InfoPopup@Popup>
+    id: confirm_popup
+    size_hint_x: 0.5
+    size_hint_y: 0.5
+    auto_dismiss: True
+    title: "Info..."
+    title_font: 'Oxanium-Light.ttf'
+    Label:
+        id: info_lbl
+        font_name: 'Oxanium-Light.ttf'

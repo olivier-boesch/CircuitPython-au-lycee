@@ -101,5 +101,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/Application_de_configuration/package_linux/
-/Application_de_configuration/package_windows/
+/software/configuration_software/package_linux/
+/software/configuration_software/package_windows/

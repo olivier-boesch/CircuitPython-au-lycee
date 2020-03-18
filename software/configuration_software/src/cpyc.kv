@@ -1,0 +1,75 @@
+BoxLayout:
+    padding: '10 dp'
+    spacing: '5 dp'
+    orientation: 'vertical'
+    font_name: 'Oxanium-Light.ttf'
+    Label:
+        size_hint_y: 0.1
+        text: 'Configuration des microcontr\u00f4leurs pour les TP de physique'
+        font_size: '30 sp'
+        font_name: 'Oxanium-Light.ttf'
+    Label:
+        size_hint_y: 0.1
+        id: info_lbl
+        text: 'Pret'
+        font_size: '20 sp'
+        text_size: self.size
+        halign: 'center'
+        valign: 'center'
+        font_name: 'Oxanium-Light.ttf'
+    Label:
+        size_hint_y: 0.1
+        id: choosen_config_lbl
+        text: 'Configuration choisie:'
+        font_size: '20 sp'
+        font_name: 'Oxanium-Light.ttf'
+    GridLayout:
+        id: config_grid
+        spacing: 2
+        padding: 5
+        cols: 3
+    Button:
+        size_hint_y: 0.1
+        text: 'Configurer le(s) \u00b5Contr\u00f4leur(s)'
+        on_release: app.perform_config()
+        font_name: 'Oxanium-Light.ttf'
+    Button:
+        size_hint_y: 0.1
+        text: 'Quitter'
+        on_release: app.stop()
+        font_name: 'Oxanium-Light.ttf'
+    Label:
+        size_hint_y: 0.2
+        text: 'CirPyConfig - Olivier Boesch \u00a9 2020 - Configuration automatique de \u00b5C pour CircuitPython\nlicence MIT'
+        text_size: self.size
+        halign: 'center'
+        font_name: 'Oxanium-Light.ttf'
+
+<PopupMessage@Popup>
+    size_hint: None,None
+    size: '400 dp','130 dp'
+    pos_hint: {'top': 0.95, 'right':0.98}
+    auto_dismiss: True
+    title_font: 'Oxanium-Light.ttf'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: message_content_lbl
+            text_size: self.size
+            halign: 'center'
+            valign: 'center'
+            font_name: 'Oxanium-Light.ttf'
+
+<PopupOperation@Popup>
+    size_hint: None,None
+    size: '400 dp','130 dp'
+    auto_dismiss: True
+    title_font: 'Oxanium-Light.ttf'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: message_content_lbl
+            text_size: self.size
+            halign: 'center'
+            valign: 'center'
+            font_name: 'Oxanium-Light.ttf'
