@@ -1,436 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="ajout de fenetre d'operation et fermeture auto des dialogues">
+    <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/CirPyConfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_bz2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_cn.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_hk.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_iso2022.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_jp.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_kr.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_codecs_tw.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_contextvars.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_csv.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_ctypes.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_decimal.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_hashlib.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_json.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_lzma.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_multibytecodec.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_multiprocessing.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_opcode.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_queue.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_ssl.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/_uuid.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/capteur_angle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/capteur_angle_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/font5x8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_bus_device/i2c_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_bus_device/spi_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_framebuf.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/adafruit_ssd1306.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/neopixel.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/simpleio.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/lib/utilities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/media/logo_mep.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/media/logo_stex.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/media/logo_test.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/photoresistance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/photoresistance_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/test_materiel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/thermistance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/thermistance_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/configs/vide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/cpypc.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamsa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamsb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamsc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamsn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamso.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isoamsr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isobox.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isocyr1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isocyr2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isodia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isogrk1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isogrk2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isogrk3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isogrk4-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isogrk4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isolat1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isolat2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomfrk-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomfrk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomopf-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomopf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomscr-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isomscr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isonum.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isopub.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/isotech.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/mmlalias.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/mmlextra-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/mmlextra.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/s5defs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/xhtml1-lat1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/xhtml1-special.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/parsers/rst/include/xhtml1-symbol.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html4css1/html4css1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html4css1/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html5_polyglot/math.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html5_polyglot/minimal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html5_polyglot/plain.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/html5_polyglot/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/latex2e/default.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/latex2e/titlepage.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/latex2e/xelatex.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/odf_odt/styles.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/pep_html/pep.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/pep_html/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/big-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/big-black/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/big-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/big-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/big-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/iepngfix.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/opera.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/outline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/s5-core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/slides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/default/slides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/medium-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/medium-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/medium-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/medium-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/small-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/small-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/small-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/docutils/writers/s5_html/themes/small-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/include/python3.7m/pyconfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/_clock.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/_event.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/audio/audio_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/clipboard/_clipboard_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/image/_img_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/text/_text_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/text/text_layout.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/window/_window_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/window/window_info.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/core/window/window_x11.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/buffer.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl_backend/cgl_debug.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl_backend/cgl_gl.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl_backend/cgl_glew.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl_backend/cgl_mock.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/cgl_backend/cgl_sdl2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/compiler.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/context.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/context_instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/fbo.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/gl_instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/opengl.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/opengl_utils.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/scissor_instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/shader.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/stencil_instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/svg.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/tesselator.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/texture.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/transformation.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/vbo.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/vertex.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/graphics/vertex_instructions.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/properties.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy/weakproxy.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/DejaVuSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/fonts/RobotoMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/glsl/default.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/glsl/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/glsl/default.vs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/glsl/header.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/glsl/header.vs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/defaultshape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/defaulttheme-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/defaulttheme.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/image-loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/images/testpattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/azerty.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/de_CH.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/en_US.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/fr_CH.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/qwerty.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/keyboards/qwertz.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/logo/kivy-icon-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/settings_kivy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/data/style.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/_webdebugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/console.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/cursor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/inspector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/joycursor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/keybinding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/monitor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/recorder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/screen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/showborder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/touchring.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/kivy_install/modules/webdebugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/lib/python3.7/config-3.7m-x86_64-linux-gnu/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libFLAC-d2bd90ad.so.8.2.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libGLX.so.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libGLdispatch.so.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libSDL2-2-5e36886f.0.so.0.10.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libSDL2_image-2-2bfc4f66.0.so.0.2.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libSDL2_mixer-2-f4b2b20a.0.so.0.2.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libSDL2_ttf-2-7f28d7b9.0.so.0.14.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libX11.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libXau.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libXdmcp.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libXext.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libXrender.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libXxf86vm-ce06a3b4.so.1.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libbsd.so.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libbz2.so.1.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libcrypto.so.1.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libexpat.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libffi.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libfreetype-257d61ad.so.6.3.22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libgcc_s.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libjpeg-7feae879.so.62.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/liblzma.so.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libmodplug-557acd7e.so.1.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libmpdec.so.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libmtdev.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libogg-d7e039b9.so.0.6.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libpng12-640ca796.so.0.49.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libpython3.7m.so.1.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libreadline.so.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libsamplerate-f26ef3ac.so.0.1.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libssl.so.1.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libstdc++.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libtiff-e6ae6939.so.3.9.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libtinfo.so.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libuuid.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libvorbis-bc2c45ba.so.0.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libvorbisfile-e27714a1.so.3.3.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libwebp-9d84cf2c.so.5.0.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libz-eb09ad1d.so.1.2.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/libz.so.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/mmap.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/psutil/_psutil_linux.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/psutil/_psutil_posix.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/readline.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/resource.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/termios.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_linux/CirPyConfig/tools/RemoveDrive.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/CirPyConfig.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/Include/pyconfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.FLAC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.freetype.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.jpeg.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.modplug.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.mpg123.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.ogg-vorbis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.opus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.opusfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.png.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.tiff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.webp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/LICENSE.zlib.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/SDL2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/SDL2_image.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/SDL2_mixer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/SDL2_ttf.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/VCRUNTIME140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/capteur_angle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/capteur_angle_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/font5x8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_bus_device/i2c_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_bus_device/spi_device.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_framebuf.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/adafruit_ssd1306.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/neopixel.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/simpleio.mpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/lib/utilities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/media/logo_mep.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/media/logo_stex.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/media/logo_test.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/notif_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/photoresistance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/photoresistance_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/test_materiel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/thermistance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/thermistance_resistance_pont.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/configs/vide.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/cpypc.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamsa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamsb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamsc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamsn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamso.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isoamsr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isobox.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isocyr1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isocyr2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isodia.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isogrk1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isogrk2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isogrk3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isogrk4-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isogrk4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isolat1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isolat2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomfrk-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomfrk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomopf-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomopf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomscr-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isomscr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isonum.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isopub.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/isotech.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/mmlalias.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/mmlextra-wide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/mmlextra.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/s5defs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/xhtml1-lat1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/xhtml1-special.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/parsers/rst/include/xhtml1-symbol.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html4css1/html4css1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html4css1/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html5_polyglot/math.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html5_polyglot/minimal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html5_polyglot/plain.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/html5_polyglot/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/latex2e/default.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/latex2e/titlepage.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/latex2e/xelatex.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/odf_odt/styles.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/pep_html/pep.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/pep_html/template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/big-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/big-black/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/big-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/big-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/big-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/iepngfix.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/opera.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/outline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/s5-core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/slides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/default/slides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/medium-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/medium-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/medium-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/medium-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/small-black/__base__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/small-black/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/small-white/framing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/docutils/writers/s5_html/themes/small-white/pretty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/glew32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/DejaVuSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/fonts/RobotoMono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/glsl/default.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/glsl/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/glsl/default.vs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/glsl/header.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/glsl/header.vs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/defaultshape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/defaulttheme-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/defaulttheme.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/image-loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/images/testpattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/azerty.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/de_CH.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/en_US.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/fr_CH.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/qwerty.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/keyboards/qwertz.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/logo/kivy-icon-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/settings_kivy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/data/style.kv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/_webdebugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/console.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/cursor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/inspector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/joycursor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/keybinding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/monitor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/recorder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/screen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/showborder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/touchring.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/kivy_install/modules/webdebugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libFLAC-8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libcrypto-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libfreetype-6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libjpeg-9.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libmodplug-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libmpg123-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libogg-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libopus-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libopusfile-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libpng16-16.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libssl-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libtiff-5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libvorbis-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libvorbisfile-3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/libwebp-7.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/mfc140u.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/python37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/pythoncom37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/pywintypes37.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/tools/RemoveDrive.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application_de_configuration/package_windows/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_i18n/fr/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_i18n/fr/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -608,21 +181,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="1804000" />
-    </task>
-    <task id="LOCAL-00059" summary="corrected text">
-      <created>1560893375259</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1560893375260</updated>
-    </task>
-    <task id="LOCAL-00060" summary="corrected text">
-      <created>1560893390984</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1560893390985</updated>
+      <workItem from="1584563360668" duration="2144000" />
     </task>
     <task id="LOCAL-00061" summary="ajout déroulement tp">
       <created>1560894484669</created>
@@ -953,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584565058366</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="ajout de fenetre d'operation et fermeture auto des dialogues">
+      <created>1584565181377</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565181377</updated>
+    </task>
+    <task id="LOCAL-00109" summary="tf -&gt; t in mds">
+      <created>1584565331237</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1584565331237</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1014,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added warning on index : work in progress" />
     <MESSAGE value="text corrections" />
     <MESSAGE value="text corrections on index" />
     <MESSAGE value="images platine capteur et µC" />
@@ -1031,7 +603,6 @@
     <MESSAGE value="retablissement des liens" />
     <MESSAGE value="modifs diverses" />
     <MESSAGE value="reorganisation repertoire et debuggage code config" />
-    <MESSAGE value="ajout de fenetre d'operation et fermeture auto des dialogues" />
     <MESSAGE value="ajout icones" />
     <MESSAGE value="Maj fichiers par defaut" />
     <MESSAGE value="ajouts / amj logos" />
@@ -1039,17 +610,19 @@
     <MESSAGE value="modif gui datacap" />
     <MESSAGE value="source appli config ok" />
     <MESSAGE value="structure and website change (huge !)" />
-    <option name="LAST_COMMIT_MESSAGE" value="structure and website change (huge !)" />
+    <MESSAGE value="ajout de fenetre d'operation et fermeture auto des dialogues" />
+    <MESSAGE value="tf -&gt; t in mds" />
+    <option name="LAST_COMMIT_MESSAGE" value="tf -&gt; t in mds" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584565180621">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584565331136">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565180621" />
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584565188286">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565331136" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584565338372">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565188286" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584565338372" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CircuitPython_au_lycee$datacap.coverage" NAME="datacap Coverage Results" MODIFIED="1572905538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/capture_de_donnees" />
