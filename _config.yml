@@ -1,1 +1,14 @@
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fr"]
+
+exclude_from_localizations: ["assets"]
+
+defaultLang: en
+
+LanguageNames:
+  fr: Français
+  en: English
+
 theme: jekyll-theme-architect
