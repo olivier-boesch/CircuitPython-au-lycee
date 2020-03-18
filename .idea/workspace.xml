@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/assets/pythonmcu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/pythonmcu_500.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
@@ -189,14 +191,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="4735000" />
-    </task>
-    <task id="LOCAL-00065" summary="correction capteur angle">
-      <created>1560959844809</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1560959844810</updated>
+      <workItem from="1584563360668" duration="6264000" />
     </task>
     <task id="LOCAL-00066" summary="added tp structure">
       <created>1560960598551</created>
@@ -534,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584568642065</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="update index.md">
+      <created>1584569052715</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1584569052715</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +597,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="    ajout montage/fabrication" />
     <MESSAGE value="code modification" />
     <MESSAGE value="config avec ou sans calculs de Rpont, correction de code" />
     <MESSAGE value="reorganisation/renommage de fichiers" />
@@ -620,17 +621,18 @@
     <MESSAGE value="t -&#10;&lt; tf in circuitpython.md" />
     <MESSAGE value="config.yml in root directory" />
     <MESSAGE value="complete directory tree change&#10;update to v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete directory tree change&#10;update to v2" />
+    <MESSAGE value="update index.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584568641848">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584569052622">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584568641848" />
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584568644290">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584569052622" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584569055537">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584568644290" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584569055537" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CircuitPython_au_lycee$datacap.coverage" NAME="datacap Coverage Results" MODIFIED="1572905538235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/capture_de_donnees" />
