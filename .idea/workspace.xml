@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22b35709-7fde-410f-9af7-35f454a44a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +50,8 @@
       <recent name="$PROJECT_DIR$/Application_de_configuration/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/fr" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs/fr" />
       <recent name="$PROJECT_DIR$/docs/_i18n/en" />
       <recent name="$PROJECT_DIR$/Application de configuration/configs" />
     </key>
@@ -191,28 +191,7 @@
       <workItem from="1572999809277" duration="88000" />
       <workItem from="1574327030546" duration="11000" />
       <workItem from="1584551828017" duration="1693000" />
-      <workItem from="1584563360668" duration="9723000" />
-    </task>
-    <task id="LOCAL-00073" summary="ajout image m4">
-      <created>1560973836005</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1560973836005</updated>
-    </task>
-    <task id="LOCAL-00074" summary="added m4express pinout, location changed">
-      <created>1560975710386</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1560975710387</updated>
-    </task>
-    <task id="LOCAL-00075" summary="pinout small images added">
-      <created>1560976211109</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1560976211109</updated>
+      <workItem from="1584563360668" duration="10437000" />
     </task>
     <task id="LOCAL-00076" summary="added pinout in pdf format">
       <created>1560976381816</created>
@@ -536,7 +515,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584573338478</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="website update">
+      <created>1584574053947</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1584574053947</updated>
+    </task>
+    <task id="LOCAL-00123" summary="website update">
+      <created>1584574176114</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1584574176114</updated>
+    </task>
+    <task id="LOCAL-00124" summary="website update">
+      <created>1584574233550</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1584574233550</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,14 +625,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="website update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584574176046">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2" timestamp="1584574233479">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584574176046" />
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584574177959">
+    <state x="1280" y="32" width="1231" height="708" key="CommitChangelistDialog2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584574233479" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2" timestamp="1584574236063">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584574177959" />
+    <state x="1558" y="122" width="802" height="526" key="Vcs.Push.Dialog.v2/1280.0.1366.768/0.32.1280.708@1280.0.1366.768" timestamp="1584574236063" />
     <state x="1762" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584574084276">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>

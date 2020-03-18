@@ -1,3 +1,3 @@
-See in french [here](https://olivier-boesch.github.io/indexfr)
+See in french [here](indexfr)
 
-See in english [here](https://olivier-boesch.github.io/indexen)
+See in english [here](indexen)
