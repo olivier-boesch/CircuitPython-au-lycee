@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name mep_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/mep_v2-rescue.lib)(options "")(descr ""))
-)
