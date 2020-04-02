@@ -17,9 +17,10 @@ from utilities import Notification, GREEN, ORANGE, RED, Button
 # ---------- PARAMETRES ---------------
 
 # Choix des broches
-broche_depart =  board.A2
+broche_depart = board.A2
 broche_arrivee = board.A3
 broche_bouton_C = board.D5
+
 
 # -------------------------------------
 
@@ -32,6 +33,7 @@ def config_bruit(entree):
         time.sleep(0.01)
     bruit = sum(valeurs) / len(valeurs)  # moyenne des valeurs
     return max(bruit + 200, bruit * 1.2)  # 200 -> 10mV env ou +20% (arbritraire)
+
 
 # ---------------------------------
 
@@ -52,7 +54,7 @@ notif.notify("Presser le bouton C\nPour demarrer\nune mesure", ORANGE)
 # ---------- boucle -------------
 while True:
 
-    #attente du bouton
+    # attente du bouton
     while not bouton_C.check():
         pass
 

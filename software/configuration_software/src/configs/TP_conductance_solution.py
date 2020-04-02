@@ -21,6 +21,8 @@ broche_alimentation = board.D4  # broche d'alimentation
 
 # ######### PARAMETRE DE LA RESISTANCE DE PONT #######
 Rpont = 10000  # Ohm - résistance du pont
+
+
 # ####################################################
 
 
@@ -32,6 +34,8 @@ def calcul_concentration(g):
         la valeur de la concentration de cette solurion"""
     C = 1.0 * r + 0.0
     return C
+
+
 # ############################################################################
 
 # ----- Setup
@@ -63,7 +67,7 @@ while True:
     else:
         r = Rpont * (3.3 / tension - 1.0)
     # calculer la conductance
-    if r < 0.0005 :
+    if r < 0.0005:
         g = float('inf')
     else:
         g = 1 / r

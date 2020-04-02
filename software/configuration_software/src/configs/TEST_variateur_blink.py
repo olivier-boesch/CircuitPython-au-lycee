@@ -31,6 +31,6 @@ time.sleep(2)
 # -------------- boucle (loop)
 while True:
     # set duty cycle of led with pot value
-    led.frequency = int(pot.value/5000.0)+1
+    led.frequency = int(pot.value / 5000.0) + 1
     # draw a beautiful bar ;-)
     notif.oled_bar(pot.value / 65535 * 100)

@@ -40,7 +40,6 @@ time.sleep(1)
 # inviter l'utilisateur à appuyer sur le bouton C
 notif.notify("Veuillez appuyer\nsur le bouton C\npour faire une mesure")
 
-
 # -------------- boucle (loop)
 while True:
     # attente d'un appui sur le bouton C pour déclencher la mesure
@@ -50,16 +49,16 @@ while True:
 
     # envoi du déclenchement de la mesure
     led.value = True  # on allume la led13 (rouge) pour indiquer le début la mesure
-    
+
     # on fait la mesure (la duree est récupérée en ms)
     duree = capteur_us.measure_time_ms()
-    
+
     # on éteint la led -> fin de mesure
     led.value = False
-    
+
     # calcul de la distance en m
     distance = 0.0  # !!! A COMPLETER !!!
-    
+
     # afffichage sur l'écran oled ou le port série
-    res = "-----  telemetre -----\nt = {:3.3f} ms \n d = {:3.2f} m".format(duree,distance)
+    res = "-----  telemetre -----\nt = {:3.3f} ms \n d = {:3.2f} m".format(duree, distance)
     notif.notify(res)

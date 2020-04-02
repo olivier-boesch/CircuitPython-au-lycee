@@ -8,6 +8,8 @@ from utilities import Notification
 Rpont = 10000  # Ohm - résistance du pont
 broche_entree = board.A0  # broche d'entree du potentiomètre
 broche_alimentation = board.D12  # broche d'alimentation du montage
+
+
 # -------------------------------------------------------
 
 
@@ -15,6 +17,8 @@ broche_alimentation = board.D12  # broche d'alimentation du montage
 def calcul_temperature(R):
     temp = R * 1.0
     return temp
+
+
 # ############################################################################
 
 

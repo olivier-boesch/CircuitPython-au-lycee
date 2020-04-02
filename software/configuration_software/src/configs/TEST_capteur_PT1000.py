@@ -21,11 +21,11 @@ from utilities import Notification, RED, GREEN
 
 # ------------ parametres ----------
 broche_entree = board.A0  # broche d'entree du potentiomètre
-broche_alimentation = board.D4 # broche pour alimentation du montage
+broche_alimentation = board.D4  # broche pour alimentation du montage
 # -------------------------------------------------------
 
 # ############# PARAMETRE DU POTENTIOMETRE ###########
-Rpont = 1000.0 # Ohm - valeur de la résistance de pont
+Rpont = 1000.0  # Ohm - valeur de la résistance de pont
 # ####################################################
 
 # ------------- setup
@@ -58,6 +58,7 @@ while True:
     # calculer la temperature par le modèle
     temperature = r_pt1000 * 0.25 - 259.25
     # afficher la mesure (avec la led en vert)
-    notif.notify(color=GREEN, text='Ur={:3.4f} V\nr={:3.0f} Ohms\ntemp={:3.0f} oC'.format(tension, r_pt1000, temperature))
+    notif.notify(color=GREEN,
+                 text='Ur={:3.4f} V\nr={:3.0f} Ohms\ntemp={:3.0f} oC'.format(tension, r_pt1000, temperature))
     # attendre pour eviter l'auto-échauffement de la résistance (2s)
     time.sleep(2)

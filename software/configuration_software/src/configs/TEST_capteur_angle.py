@@ -24,7 +24,7 @@ broche_entree = board.A0  # broche d'entree du potentiomètre
 
 # ############# PARAMETRE DU POTENTIOMETRE ###########
 Rtot = 10000.0  # Ohm - résistance totale du potentiomètre
-Rpont = 10000.0 # Ohm - valeur de la résistance de pont
+Rpont = 10000.0  # Ohm - valeur de la résistance de pont
 # ####################################################
 
 
@@ -38,7 +38,6 @@ time.sleep(1)
 
 # boucle
 while True:
-
     # récupérer la valeur de l'entrée (16bits) calculer la tension à l'entrée analogique
     tension = entree_analogique.value * 3.3 / 65535.0
     # calculer la résistance du potentiomètre

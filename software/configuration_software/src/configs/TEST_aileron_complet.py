@@ -7,6 +7,8 @@ from digitalio import DigitalInOut, Direction
 # ------------ parametres (pour le professeur) ----------
 broche_entree = board.A3  # broche d'entree du potentiomètre
 broche_led = board.D4
+
+
 # -------------------------------------------------------
 
 
@@ -21,6 +23,8 @@ def calcul_resistance(u):
 def calcul_angle(R):
     ang = 300 / 52000 * R - 150.0
     return ang
+
+
 # ############################################################################
 
 

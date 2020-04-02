@@ -15,18 +15,15 @@ import busio  # bus série
 from digitalio import DigitalInOut, Direction  # entrées / sorties digitales
 import time  # gestion du temps
 
-
 # -------------- paramètres -----------------
 # choisir une valeur dans la plage admise ( https://fr.wikipedia.org/wiki/UART#Vitesse_de_transmission )
 # on peut choisir plus lent (en deça de 55 baud -> risque de plantage par saturation du buffer)
 serial_speed = 55
 
-
 # --------------- setup ---------------------
 led = DigitalInOut(board.D13)  # led embarquée
 led.direction = Direction.OUTPUT  # configuration en sortie
 uart = busio.UART(board.TX, board.RX, baudrate=serial_speed)  # bus série (vitesse modifiable)
-
 
 # ---------------- boucle (loop) ------------
 while True:

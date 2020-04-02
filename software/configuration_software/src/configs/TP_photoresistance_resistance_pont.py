@@ -5,6 +5,8 @@ from utilities import Notification
 
 # ------------ parametres (pour le professeur) ----------
 broche_entree = board.A0  # broche d'entree du potentiomètre
+
+
 # -------------------------------------------------------
 
 
@@ -19,6 +21,8 @@ def calcul_resistance(u):
 def calcul_luminosite(R):
     lum = R * 1.0
     return lum
+
+
 # ############################################################################
 
 

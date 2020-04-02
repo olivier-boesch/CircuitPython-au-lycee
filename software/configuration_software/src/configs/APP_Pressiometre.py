@@ -18,11 +18,12 @@ import integrated_pressure_sensor_kit
 # -------------------------------------
 
 # ------- Choix des broches -----------
-broche_cap =  board.A2
+broche_cap = board.A2
 
 # ---------- setup -------------
 notif = Notification()
-capteur_pression = integrated_pressure_sensor_kit.IntegratedPressureSensorKit(pin_sensor=broche_cap,offset=-2.49090371e4)
+capteur_pression = integrated_pressure_sensor_kit.IntegratedPressureSensorKit(pin_sensor=broche_cap,
+                                                                              offset=-2.49090371e4)
 
 # ------ logo ---------
 notif.oled_logo('media/logo_mep.bin')

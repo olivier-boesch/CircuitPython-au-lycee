@@ -39,7 +39,6 @@ time.sleep(1)
 # inviter l'utilisateur à appuyer sur le bouton C
 notif.notify("Veuillez appuyer\nsur le bouton C\npour faire une mesure")
 
-
 # -------------- boucle (loop)
 while True:
     # attente d'un appui sur le bouton C pour déclencher la mesure
@@ -56,5 +55,5 @@ while True:
     # calcul de la distance en m
     distance = duree / 1000.0 * 342.0 / 2.0  # calcul de la distance en m
     # afffichage sur l'écran oled ou le port série
-    res = "----- telemetre -----\nt = {:3.3f} ms \n d = {:3.2f} m".format(duree,distance)
+    res = "----- telemetre -----\nt = {:3.3f} ms \n d = {:3.2f} m".format(duree, distance)
     notif.notify(res)

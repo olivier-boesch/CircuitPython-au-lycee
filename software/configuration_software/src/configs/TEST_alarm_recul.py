@@ -37,7 +37,6 @@ audio = SoundFile("media/trop_pres.wav")
 notif.oled_logo('media/logo_mep.bin')
 time.sleep(1)
 
-
 # -------------- boucle (loop)
 while True:
     # envoi du déclenchement de la mesure
@@ -52,9 +51,9 @@ while True:
     if distance < 1:
         if not audio.playing():
             audio.play()
-            time.sleep(distance/2)
+            time.sleep(distance / 2)
         texte = "attention !"
     else:
         texte = "ok"
-    res = "-- {} --\nt = {:3.3f} ms \n d = {:3.2f} m".format(texte,duree,distance)
+    res = "-- {} --\nt = {:3.3f} ms \n d = {:3.2f} m".format(texte, duree, distance)
     notif.notify(res)

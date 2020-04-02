@@ -6,6 +6,8 @@ from utilities import Notification
 # ------------ parametres (pour le professeur) ----------
 broche_entree = board.A0  # broche d'entree du potentiomètre
 Rpont = 10000  # Ohms - Résistance du pont
+
+
 # -------------------------------------------------------
 
 
@@ -14,6 +16,8 @@ Rpont = 10000  # Ohms - Résistance du pont
 def calcul_luminosite(R):
     lum = R * 1.0
     return lum
+
+
 # ############################################################################
 
 

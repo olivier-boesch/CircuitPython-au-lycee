@@ -14,14 +14,12 @@ from utilities import Notification, BLUE, GREEN, YELLOW, RED, WHITE  # gestion d
 from galilee import Galilee
 from analogio import AnalogIn
 
-
 # ------------ parametres ----------
 # broches des capteurs à adapter suivant les besoins (sur le même port grove !)
 # D4/D5 , D6/D9, D10/D11 ou D12/D13
 broche_capteur1 = board.D4
 broche_capteur2 = board.D5
 temps_max_mesure = 3.0  # s - durée max de mesure
-
 
 # ------------- setup --------------
 # init galilee
@@ -33,7 +31,6 @@ notif.intro()
 # texte initial
 notif.notify(color=WHITE, text="\nattente de mesure...")
 
-
 # -------------- boucle (loop) ------
 while True:
     duree = galilee.capture()
@@ -42,4 +39,4 @@ while True:
     else:
         notif.led(color=GREEN)
         time.sleep(0.1)
-        notif.notify(color=WHITE, text="duree:\n{:2.3f} ms".format(duree/1000))  # affichage en ms
+        notif.notify(color=WHITE, text="duree:\n{:2.3f} ms".format(duree / 1000))  # affichage en ms

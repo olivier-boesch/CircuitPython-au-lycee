@@ -20,14 +20,13 @@ from utilities import Notification, GREEN, RED
 r_pont = 10000.0  # Ohms
 
 # Valeur max de la resistance du capteur pour led eteinte
-limit = 11000.0 # Ohms
+limit = 11000.0  # Ohms
 
 # -------------------------------------
 
 # Choix des broches
-broche_cap =  board.A0
+broche_cap = board.A0
 broche_led = board.D4
-
 
 # ---------- setup -------------
 capteur = AnalogIn(broche_cap)
@@ -46,7 +45,7 @@ while True:
 
     u_cap = mesure_cap * 3.3 / 65535.0;
 
-    r_cap = (3.3 / u_cap -1.0) * r_pont;
+    r_cap = (3.3 / u_cap - 1.0) * r_pont;
 
     if r_cap > limit:
         led.value = False

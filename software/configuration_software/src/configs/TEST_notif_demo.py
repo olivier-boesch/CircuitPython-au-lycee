@@ -41,7 +41,7 @@ while True:
 
     for i in range(0, 101, 10):
         notif.oled_bar(i)
-        notif.led(color=(int(i*2.55),255-int(i*2.55),50))
+        notif.led(color=(int(i * 2.55), 255 - int(i * 2.55), 50))
     time.sleep(2)
 
     # end
@@ -49,5 +49,5 @@ while True:
     time.sleep(2)
 
     for i in range(5, -1, -1):
-        notif.notify(color=(0,0,255-int((5-i)*51)), text='end of demo\nbye\nrestart in {}...'.format(i))
+        notif.notify(color=(0, 0, 255 - int((5 - i) * 51)), text='end of demo\nbye\nrestart in {}...'.format(i))
         time.sleep(0.5)
