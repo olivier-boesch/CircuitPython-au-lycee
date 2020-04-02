@@ -16,7 +16,8 @@ elif os.name == 'posix':
     import psutil
 else:
     raise NotImplementedError
-    
+
+
 def get_firmware_releases(board, lang='en',  include_alpha=False, include_beta=False, include_rc=False):
     """get_firmware_releases: gets all releases for a board and language
         returns an ordered dict with versions as keys and download links"""
@@ -66,30 +67,33 @@ def get_firmware_releases(board, lang='en',  include_alpha=False, include_beta=F
     except requests.exceptions.ConnectionError as e :
         return None
 
+
 def update_drives(drive_name_pattern):
-        """search for µC drives 'CIRCUITPY' or 'FEATHERBOOT' for firmware"""
-        # search for drives
-        micro_drives = []
-        # search for windows
-        if os.name == 'nt':
-            drives = win32api.GetLogicalDriveStrings().split('\x00')[:-1]
-            for d in drives:
-                try:
-                    volume_info = win32api.GetVolumeInformation(d)
-                    if drive_name_pattern in volume_info[0]:
-                        micro_drives.append(d)
-                except win32api.error as e :
-                    Logger.warning('Win32api Error {0} : ({1}) {2} for drive {3}'.format(e.winerror, e.funcname, e.strerror,d))
-        # search for linux and possibly macos
-        elif os.name == 'posix':
-            disk_info = psutil.disk_partitions()
-            for d in disk_info:
-                if drive_name_pattern in d.mountpoint:
-                    micro_drives.append(d.mountpoint)
-        else:
-            raise NotImplementedError
-        # return results
-        return micro_drives
+    """search for µC drives 'CIRCUITPY' or 'FEATHERBOOT' for firmware"""
+    # search for drives
+    micro_drives = []
+    # search for windows
+    if os.name == 'nt':
+        drives = win32api.GetLogicalDriveStrings().split('\x00')[:-1]
+        for d in drives:
+            try:
+                volume_info = win32api.GetVolumeInformation(d)
+                if drive_name_pattern in volume_info[0]:
+                    micro_drives.append(d)
+            except win32api.error as e :
+                Logger.warning('Win32api Error {0} : ({1}) {2} for drive {3}'.format(e.winerror,
+                                                                                     e.funcname,
+                                                                                     e.strerror,d))
+    # search for linux and possibly macos
+    elif os.name == 'posix':
+        disk_info = psutil.disk_partitions()
+        for d in disk_info:
+            if drive_name_pattern in d.mountpoint:
+                micro_drives.append(d.mountpoint)
+    else:
+        raise NotImplementedError
+    # return results
+    return micro_drives
         
 def eject_drive(drive):
     # for windows : for eject drive to flush write buffer
@@ -164,4 +168,3 @@ class CircuitPythonBoard:
         self._send_command('import storage')
         self._send_command('storage.erase_filesystem()')
         self.disconnect()
-    

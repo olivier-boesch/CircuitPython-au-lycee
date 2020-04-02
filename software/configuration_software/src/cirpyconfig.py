@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-# ----------------------------------
-#
-# CirPyConfig : Application de configuration
-#       pour microcontroleur M4 express Adafruit
-#
-#   Olivier Boesch (c) 2019
-#   LICENSE : MIT
-#
-# ----------------------------------
+"""
+
+ CirPyConfig : Application de configuration
+       pour microcontroleur M4 express Adafruit
+
+   Olivier Boesch (c) 2019
+   LICENSE : MIT
+
+"""
 import os
 import os.path
 import distutils.dir_util
 import time
+import subprocess
 # ------------ now useless with PyInstaller and --noconsole option
 # for windows : don't write on console -> leads to an error with pythonw.exe
 # if os.name == 'nt':
@@ -31,8 +32,6 @@ from kivy.clock import Clock
 from kivy.uix.popup import Popup
 from kivy.uix.togglebutton import ToggleButton
 from kivy.logger import Logger
-# for process call in shell
-import subprocess
 
 # file utilities for windows or linux
 if os.name == 'nt':
@@ -46,7 +45,6 @@ else:
 codepy_content = """
 # choix de la configuration executee
 config = '{}'
-
 
 """
 
@@ -85,6 +83,7 @@ class PopupOperation(Popup):
 
 
 class CpycApp(App):
+    """ Main application class"""
     def __init__(self):
         super().__init__()
         self.drive_update = None
@@ -123,8 +122,6 @@ class CpycApp(App):
         else:
             raise NotImplementedError
         self.configs = glob.glob(config_path + '*.py')
-        # rename file with accents
-
         # remove '.py' and path
         for i in range(len(self.configs)):
             self.configs[i] = self.configs[i].replace(config_path, '').replace('.py', '')
@@ -151,7 +148,9 @@ class CpycApp(App):
                     if volume_info[0] == drive_name_pattern:
                         self.micro_drives.append(d)
                 except win32api.error as e :
-                    Logger.warning('Win32api Error {0} : ({1}) {2} for drive {3}'.format(e.winerror, e.funcname, e.strerror,d))
+                    Logger.warning('Win32api Error {0} : ({1}) {2} for drive {3}'.format(e.winerror,
+                                                                                         e.funcname,
+                                                                                         e.strerror,d))
         elif os.name == 'posix':
             disk_info = psutil.disk_partitions()
             for d in disk_info:
@@ -205,11 +204,12 @@ class CpycApp(App):
                 # copy configs dir on µC drive
                 src = os.path.abspath(os.path.join('.', 'configs'))
                 Logger.info("Copy files: from " + src + " to " + d)
-                ret = distutils.dir_util.copy_tree(src, d, preserve_mode=0, preserve_times=0, preserve_symlinks=0, update=0, verbose=0, dry_run=0)
+                ret = distutils.dir_util.copy_tree(src, d, preserve_mode=0, preserve_times=0,
+                                                   preserve_symlinks=0, update=0, verbose=0, dry_run=0)
                 Logger.info("Copy files: done ->" + str(ret))
                 # wait a little
                 time.sleep(0.1)
-                 # open code.py file
+                # open code.py file
                 f = open(os.path.join(d, 'code.py'), 'w')
                 # write code.py file
                 f.write(codepy_content.format(self.config_type))  # write choosen config
@@ -229,7 +229,10 @@ class CpycApp(App):
             # tell everything's gone right
             # TODO: how to verify
             p = PopupMessage()
-            p.set_message('Ecriture Ok !', '{0} microcontr\u00f4leur(s)\nconfigur\u00e9(s) pour {1}'.format(len(self.micro_drives), self.config_type))
+            p.set_message('Ecriture Ok !', '{0} microcontr\u00f4leur(s)\nconfigur\u00e9(s) pour {1}'.format(
+                len(self.micro_drives),
+                self.config_type)
+                          )
             p.open()
         # react when copy is not possible
         except subprocess.CalledProcessError as e:

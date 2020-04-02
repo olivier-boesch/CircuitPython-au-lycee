@@ -6,6 +6,7 @@ from kivy.logger import Logger
 from kivy.clock import Clock
 from kivy.uix.popup import Popup
 
+
 class ConfirmPopup(Popup):
     pass
     
@@ -18,8 +19,10 @@ class InfoPopup(Popup):
 class CirPySupportApp(App):
     popup = None
     ports = []
+    update_ports_list_event = None
+
     def build(self):
-        #update ports list and drive list every 1s
+        # update ports list and drive list every 1s
         self.update_ports_list_event = Clock.schedule_interval(lambda dt: self.update_ports(), 1.)
 
     def format_storage(self):
